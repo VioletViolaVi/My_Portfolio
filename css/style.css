@@ -1,133 +1,50 @@
-/******************************************** universal/html/body ********************************************/
-/* resets whole website */
+/* universal styles */
 * {
   padding: 0px;
   margin: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  color: white;
-}
-
-/* helps keep footer down */
-html {
-  height: 100%;
-}
-
-/* helps keep footer down */
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-  background-color: grey;
-}
-
-/******************************************** crossover ********************************************/
-/* background of webpage */
-.hero-image {
-  background-image: url(/images/code.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-}
-
-/* common traits of each section */
-#homepage,
-#skills,
-#about-me,
-#my-projects {
-  padding-top: 70px;
-  margin: 50% 0%;
-  font-size: 60px;
-}
-
-/* titles of each section */
-h1 {
-  font-weight: bold;
-}
-
-/******************************************** navigation bar ********************************************/
-/* changes colour of navbar */
-.fixed-top.navbar.navbar-expand-lg.navbar-light {
-  background-color: gainsboro;
-}
-
-/* puts nav links to left */
-a.nav-link {
-  text-align: left;
-  color: white;
-}
-
-/* changes colour of nav text */
-nav a.navbar-brand {
-  color: antiquewhite;
-}
-
-/******************************************** homepage ********************************************/
-/* helps jump to title when using the navbar */
-#homepage h1 {
-  padding-top: 5px;
-}
-
-/* pushes para down from title */
-#homepage p {
-  padding-top: 50px;
-  font-size: 40px;
-}
-
-/******************************************** my skills ********************************************/
-
-/* controls size of skills images */
-#skills img {
-  width: 200px;
-  height: 200px;
-  margin: 50px 20px;
-  background-color: rgba(220, 220, 220, 0.507);
-  padding: 10px;
-}
-
-/******************************************** my projects ********************************************/
-/* screenshots of my projects */
-#my-projects img {
-  width: 300px;
-  height: 250px;
-  border: 2px solid gainsboro;
-  background-color: rgba(220, 220, 220, 0.507);
-  margin-top: 50px;
-}
-
-/******************************************** footer ********************************************/
-/* helps keep footer down */
-footer {
-  margin-top: auto;
-  background-color: grey;
-}
-
-/* removes underline for footer links */
-footer a {
+  box-sizing: border-box;
+  list-style: none;
   text-decoration: none;
-  color: white;
-  font-size: 20px;
+  font-family: "Londrina Solid", cursive;
+  color: black;
 }
 
-/* removes space under footer */
-address {
-  margin-bottom: 0px;
+/* styles navbar */
+#navContainer {
+  border: 3px solid yellow;
+  background-color: green;
+  width: 60%;
+  height: 100%;
+  position: fixed;
 }
 
-/******************************************** media queries ********************************************/
-
-/* Small devices */
-@media (min-width: 576px) {
+/* spaces out menu text */
+ul li {
+  margin-top: 70px;
 }
 
-/* Medium devices e.g. tablets */
-@media (min-width: 768px) {
+/* styles menu text */
+a {
+  padding-left: 15px;
+  font-size: 25px;
 }
 
-/* Large devices e.g. desktops */
-@media (min-width: 992px) {
+/* styles fonts */
+.fas.fa-times,
+.fas.fa-bars, 
+.fas.fa-home,
+.fas.fa-laptop,
+.fas.fa-chart-bar,
+.fas.fa-envelope-open-text,
+.far.fa-file {
+  margin-left: 15px;
+  font-size: 25px;
 }
 
-/* Extra large devices e.g. large desktops */
-@media (min-width: 1200px) {
+/* controls nav close sign */
+.fas.fa-times,
+.fas.fa-bars {
+  float: right;
+  margin-right: 5px;
+  margin-bottom: 100px;
 }

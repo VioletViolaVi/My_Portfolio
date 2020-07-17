@@ -1,99 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<!-- boostrap css link -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css">
-	<!-- font awesome icon link -->
-	<script src="https://kit.fontawesome.com/bfcbb8f6a3.js" crossorigin="anonymous"></script>
-	<title>My Portfolio</title>
-</head>
-
-<body>
-	<div class="hero-image">
-		<!-- bootstrap navigation bar -->
-		<nav class="fixed-top navbar navbar-expand-lg navbar-light">
-			<a class="navbar-brand" href="#homepage">My Portfolio</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="#homepage">Home<span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#skills">Skills</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#my-projects">My Projects</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-
-		<!-- homepage -->
-		<section id="homepage">
-			<h1>Hello I'm Vivian</h1>
-			<p>I'm a Fullstack Web Developer <br> Let's work together</p>
-		</section>
-
-		<!-- skills -->
-		<section id="skills">
-			<h1>My Skills</h1>
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<img src="images/html5.png" alt="Image of HTML5 logo.">
-						<img src="images/css3.png" alt="Image of CSS3 logo.">
-						<img src="images/bootstrap.png" alt="Image of Bootstrap logo.">
-						<img src="images/github.png" alt="Image of GitHub logo.">
-						<img src="images/gitpod.png" alt="Image of Gitpod logo.">
-						<img src="images/javascript.png" alt="Image of JavaScript logo.">
-						<img src="images/jQuery.png" alt="Image of jQuery logo.">
-                    </div>
-				</div>
-			</div>
-		</section>
-
-		<!-- my projects -->
-		<section id="my-projects">
-			<h1>My Projects</h1>
-			<a href="https://violetviolavi.github.io/Milestone-Project-1/" target="_blank">
-				<img src="images/project1.PNG" alt="A screenshot of my 1st project.">
-            </a>
-			<a href="https://violetviolavi.github.io/Milestone-Project-2/" target="_blank">
-				<img src="images/project2.PNG" alt="A screenshot of my 2nd project.">
-            </a>       
-		</section>
-
-		<footer>
-			<a href="https://docs.google.com/document/d/1gASxbgiI278Sqra-Kt_K0T42bGoBOOYZdhyPYtmkUGg/edit" target="_blank">Click here: CV</a>
-			<address>
-				<a href="mailto:vivi39261@gmail.com" target="_blank">vivi39261@gmail.com</a>
-                <a href="https://github.com/VioletViolaVi" target="_blank"><i class="fab fa-github-square"></i></a>
-				<a href="https://www.linkedin.com/in/vivian-c-0164291a9/" target="_blank"><i class="fab fa-linkedin"></i></a>
-			    <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter-square"></i></a>
-            </address>
-		</footer>
-	</div>
-
-	<!-- boostrap js/jQuery link -->
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
-
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome link -->
+    <script
+      src="https://kit.fontawesome.com/bfcbb8f6a3.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- jQuery CDN link-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <title>Vivian - Portfolio</title>
+  </head>
+  <body>
+    <div id="navContainer">
+      <div>
+        <i class="fas fa-times"></i>
+      </div>
+      <ul>
+        <li>
+          <a href="">Welcome<i class="fas fa-home"></i></a>
+        </li>
+        <li>
+          <a href="">My Projects<i class="fas fa-laptop"></i></a>
+        </li>
+        <li>
+          <a href="">My Skills<i class="fas fa-chart-bar"></i></a>
+        </li>
+        <li>
+          <a href="">My Contacts<i class="fas fa-envelope-open-text"></i></a>
+        </li>
+        <li>
+          <a href="">My CV<i class="far fa-file"></i></a>
+        </li>
+      </ul>
+    </div>
+    <footer>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est odio
+        similique deserunt autem eum iure corporis, optio ex enim eveniet
+        explicabo aliquid modi saepe voluptates molestias consectetur ipsa unde
+        ullam.
+      </p>
+    </footer>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
