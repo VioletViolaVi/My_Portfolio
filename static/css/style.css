@@ -89,14 +89,21 @@ button.navbar-toggler:hover {
   border-radius: 0.2em;
 }
 
-/************************************************* cv and skills */
-.skills-img {
-  height: 4em;
-  width: 4em;
-  border: deeppink 0.3em solid;
-  border-radius: 0.2em;
+/************************************************* skills */
+.table thead th {
+  background-color: pink;
 }
 
+.table td,
+.table th {
+  border-top: 0.3em solid deeppink;
+}
+
+tr:hover {
+  background-color: rgba(250, 211, 217, 0.678);
+}
+
+/************************************************* cv */
 .cv-img {
   height: 18em;
   width: 15em;
