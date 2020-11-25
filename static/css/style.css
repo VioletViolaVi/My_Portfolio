@@ -25,6 +25,7 @@ a:visited {
   right: 0.5em;
   bottom: 5em;
   z-index: 1;
+  display: none;
 }
 
 .back-to-top-btn:active,
