@@ -1,0 +1,16 @@
+/* universal styles */
+* {
+  padding: 0em;
+  margin: 0em;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a,
+a:hover,
+a:active,
+a:focus,
+a:visited {
+	text-decoration: none;
+}
+
