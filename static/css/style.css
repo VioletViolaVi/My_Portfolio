@@ -150,6 +150,11 @@ tr:hover {
 }
 
 /************************************************* footer */
+footer {
+  background-color: pink;
+  margin-top: 2em;
+}
+
 footer a p {
   color: black;
 }
