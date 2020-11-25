@@ -31,6 +31,7 @@ a:visited {
 .back-to-top-btn:active,
 .back-to-top-btn:focus,
 .back-to-top-btn:hover {
+  margin-bottom: 0.2em;
   border: deeppink solid 0.2em;
   outline: none;
 }
@@ -38,11 +39,6 @@ a:visited {
 .fas.fa-arrow-up {
   font-size: 1.5em;
   margin-top: 0.2em;
-}
-
-.fas.fa-arrow-up:active,
-.fas.fa-arrow-up:focus,
-.fas.fa-arrow-up:hover {
   color: deeppink;
 }
 
