@@ -149,6 +149,11 @@ tr:hover {
   color: pink;
 }
 
+/************************************************* footer */
+footer a p {
+  color: black;
+}
+
 /*************************************************  media queries *************************************************/
 /* bootstrap media query */
 @media (min-width: 576px) {
