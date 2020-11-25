@@ -121,10 +121,32 @@ tr:hover {
 
 /************************************************* about me */
 .about-me-img {
-  height: 18em;
-  width: 15em;
+  height: 16em;
+  width: 13em;
+  border-radius: 100%;
   border: deeppink 0.3em solid;
+}
+
+.about-me-para {
+  background-color: rgba(250, 211, 217, 0.678);
   border-radius: 0.2em;
+}
+
+.fas.fa-envelope,
+.fab.fa-linkedin,
+.fab.fa-facebook-square,
+.fab.fa-twitter-square,
+.fab.fa-github-square {
+  color: deeppink;
+  font-size: 1.5em;
+}
+
+.fas.fa-envelope:hover,
+.fab.fa-linkedin:hover,
+.fab.fa-facebook-square:hover,
+.fab.fa-twitter-square:hover,
+.fab.fa-github-square:hover {
+  color: pink;
 }
 
 /*************************************************  media queries *************************************************/
