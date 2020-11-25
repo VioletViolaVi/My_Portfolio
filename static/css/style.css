@@ -119,7 +119,13 @@ tr:hover {
   border-radius: 0.2em;
 }
 
-
+/************************************************* about me */
+.about-me-img {
+  height: 18em;
+  width: 15em;
+  border: deeppink 0.3em solid;
+  border-radius: 0.2em;
+}
 
 /*************************************************  media queries *************************************************/
 /* bootstrap media query */
