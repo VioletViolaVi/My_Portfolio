@@ -50,3 +50,11 @@ button.navbar-toggler:hover {
   border-radius: 1em;
   padding: 0.5em;
 }
+
+/************************************************* home */
+.project-img{
+    height: 10em;
+    width: 18em;
+    border: deeppink 0.3em solid;
+    border-radius: 0.2em;
+}
