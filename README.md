@@ -1,4 +1,45 @@
 # My Portfolio
+# UX
+## Small Screens
+## Medium Screens
+## Large Screens
+# Features
+# Technologies Used
+# Testing
+# Deployment
+# Credits
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 This is my portfolio showcasing my skills regarding coding. I’m currently studying with Code Institute on a Full Stack Web Development course.
 
