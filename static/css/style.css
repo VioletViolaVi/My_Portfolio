@@ -42,8 +42,8 @@ a:visited {
   color: deeppink;
 }
 
-section{
-    cursor: default;
+section {
+  cursor: default;
 }
 
 /************************************************* navbar */
@@ -85,6 +85,21 @@ button.navbar-toggler:hover {
 .project-img {
   height: 10em;
   width: 18em;
+  border: deeppink 0.3em solid;
+  border-radius: 0.2em;
+}
+
+/************************************************* cv and skills */
+.skills-img {
+  height: 4em;
+  width: 4em;
+  border: deeppink 0.3em solid;
+  border-radius: 0.2em;
+}
+
+.cv-img {
+  height: 18em;
+  width: 15em;
   border: deeppink 0.3em solid;
   border-radius: 0.2em;
 }
