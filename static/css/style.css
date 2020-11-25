@@ -26,13 +26,14 @@ a:visited {
   bottom: 5em;
   z-index: 1;
   display: none;
+  border: deeppink solid 0.2em;
+  cursor: pointer;
 }
 
 .back-to-top-btn:active,
 .back-to-top-btn:focus,
 .back-to-top-btn:hover {
   margin-bottom: 0.2em;
-  border: deeppink solid 0.2em;
   outline: none;
 }
 
