@@ -111,7 +111,32 @@ tr:hover {
   border-radius: 0.2em;
 }
 
+/************************************************* certificates */
+.certificate-img {
+  height: 18em;
+  width: 15em;
+  border: deeppink 0.3em solid;
+  border-radius: 0.2em;
+}
+
+
+
 /*************************************************  media queries *************************************************/
+/* bootstrap media query */
+@media (min-width: 576px) {
+  /************************************************* home */
+  .project-img {
+    height: 12em;
+    width: 20em;
+  }
+
+  /************************************************* cv */
+  .cv-img {
+    height: 21em;
+    width: 18em;
+  }
+}
+
 /* bootstrap media query */
 @media (min-width: 992px) {
   /************************************************* navbar */
