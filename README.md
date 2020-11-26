@@ -34,12 +34,33 @@ This website is for anyone who is interested in working with me and learning mor
 ![A wireframe image of the skills page for my portfolio on large screens.](/media/wireframes/8.skills-desktop.PNG)
 ![A wireframe image of the about me page for my portfolio on large screens.](/media/wireframes/11.about-desktop.PNG)
 # Features
-
-
-
-
-
+## Responsive Navigation Bar:
+- Allows users to quickly browse through the website based on the sections provided in the navigation bar as links, by having them click on the links and making the website jump down to the respective section selected.
+## My Projects Section:
+- Allows users to see a screenshot of the projects made by myself to gain an idea on what they look like and what I’m capable of.
+- Allows users to click on the screenshot  images to be redirected to the project’s website where they can browse through the coding work I produced.
+## My Skills Section:
+- Allows users to browse through the skills I’ve learnt, to be able to code. Users can highlight each row of skills, by hovering over them, to make reading them easier.
+## My CV Section:
+- Allows users to view a screenshot image of my CV and read it in full by clicking on the CV image to open it up in another webpage.
+## My Certificates Section:
+- Allows users to view the coding based certificates I’ve achieved by clicking on their screenshot images and being redirected to a separate webpage to view them.
+## My About Me Section:
+- Allows users to browse through information that briefly describes who I am, my experiences and hobbies I enjoy. Users can also view a portrait of myself.
+- Allows users to view my work on GitHub and contact me using email and social media by clicking on the icons underneath my portrait and being redirected to my social media pages, GitHub account and have an email with my email address attached ready to be sent to me.
+## Back To Top Button:
+- Allows users to return back to the top of the website without having to scroll back up themselves. This is done by the users clicking on the arrow button at the bottom right-hand side of the screen and being redirected back to the top of the page.
+## Footer:
+- Allows users to view my contact details regarding my email, Github and LinkedIn accounts, by clicking on them, as they are all links, so they can contact me if they are interested in working with me.
 # Technologies Used
+
+
+
+
+
+
+
+
 # Testing
 # Deployment
 # Credits
