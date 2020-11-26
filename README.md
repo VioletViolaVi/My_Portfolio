@@ -9,13 +9,20 @@ The second project was a memory card game. The aim of this game was to provide u
 The third project was a movie ticket booking site. The aim of this project was to enable users the ability to browse through a series of movies displayed on the site, then create accounts to book the tickets they wanted. This project made use of CRUD functionality, allowing users to create accounts for booking tickets, read their created bookings, update their bookings when changing the ticket quantity or selected movie and delete bookings when no longer desired. The project used Python with Flask, MongoDB, HTML5, CSS3, Javascript, jQuery and Materialize.
 ### Slurps: Project 4
 The fourth project was an online drink shop, selling juices and milkshakes. The aim of this project was for users to buy the drinks offered on the site. Users could also utilise the CRUD functionality made available by creating accounts to keep record of their orders, reading their drink orders, updating their orders when making changes to them and deleting their orders if no longer interested. The project used Python with Djagno, SQL, HTML5, CSS3, Javascript, jQuery and Bootstrap.
-
-
-
-
-
-
 # UX
+This website is for anyone who is interested in working with me and learning more about my coding skills. Anyone who is interested can browse through the projects I’ve completed and can contact me via the contact details provided.
+## User stories:
+- As a user, I want to browse through the projects Vivian has completed, so that I can gain an idea of the coding skills she possesses.
+- As a user, I want to contact Vivian, so that I can discuss the possibility of working together on future projects.
+## Designer stories:
+- As the designer, I want to create a portfolio that is easy to browse through and provides easy access to my previous projects, so anyone who’s interested can view my coding work.
+- As the designer, I want to add my contact details to my portfolio so anyone who’s interested can contact me about working together on future projects.
+
+
+
+
+
+
 ## Small Screens
 ![A wireframe image of the navigation bar for my portfolio on small screens.](/media/wireframes/1.navbar-mobile.PNG)
 ![A wireframe image of the home page for my portfolio on small screens.](/media/wireframes/3.home-mobile.PNG)
