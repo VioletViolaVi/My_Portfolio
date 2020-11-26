@@ -171,3 +171,10 @@ This portfolio was ran locally following these steps:
 7. Lastly, tap the enter button on the keyboard to create the local clone.
 
 # Credits
+## Content
+- The responsive breakpoints used were taken from Bootstrap.
+## Acknowledgements
+I received inspiration for this portfolio from:
+- https://www.sliderrevolution.com/design/web-developer-portfolio-examples/ 
+- https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/ 
+
