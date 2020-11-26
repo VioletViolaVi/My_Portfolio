@@ -141,7 +141,13 @@ This website is for anyone who is interested in working with me and learning mor
 - Using Chrome development tools, open the portfolio website at the following different screen sizes aka, Bootstrap breakpoints: 320x571, 576Xx571, 768x571, 992x571 and 1200x571.
 - Ensure the footer can be clearly seen across all these different screen sizes.
 - Click on each contact link in the footer and make sure a separate tab opens up to the respective social account page clicked on.
-
+## Jasmine Testing
+- Jasmine testing was used to test the Javascript involved in this project. This testing was specifically used to ensure the numerical values involved in the Javascript were  functioning correctly; not producing errors.
+- The testing files are ran by opening up the “__*portfolio.js*__” and “__*portfolioSpec.js*__” files and then clicking the preview button from the “__*jasmineTesting.html*__” file. This then shows which tests passed and failed.
+- Directories for Jasmine test files:
+    - [**portfolio.js**](jasmineTesting/scripts/portfolio.js)
+    - [**portfolioSpec.js**](jasmineTesting/spec/portfolioSpec.js)
+    - [**jasmineTesting.html**](jasmineTesting/jasmineTesting.html)
 
 
 
