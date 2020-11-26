@@ -157,56 +157,6 @@ label[for="aboutMeImg"] {
   color: pink;
 }
 
-/************************************************* arrow taken from Bri Garrett on CodePen */
-.arrow {
-  position: absolute;
-  top: 130em;
-  left: 3.3em;
-  bottom: -114em;
-}
-
-.curve {
-  border: deeppink 0.3em solid;
-  border-color: transparent transparent transparent deeppink;
-  height: 6em;
-  width: 5em;
-  border-radius: 8em 0 0 8em;
-}
-
-.point {
-  position: absolute;
-  left: 0.8em;
-  top: 4.9em;
-}
-
-.point:before {
-  border: deeppink 0.2em solid;
-  height: 1.8em;
-  content: "";
-  position: absolute;
-  background-color: deeppink;
-  top: -11px;
-  left: -11px;
-  transform: rotate(-74deg);
-  -webkit-transform: rotate(-74deg);
-  -moz-transform: rotate(-74deg);
-  -ms-transform: rotate(-74deg);
-}
-
-.point:after {
-  border: deeppink 0.2em solid;
-  height: 1.8em;
-  content: "";
-  position: absolute;
-  background-color: deeppink;
-  top: -20px;
-  left: 5px;
-  transform: rotate(12deg);
-  -webkit-transform: rotate(12deg);
-  -moz-transform: rotate(12deg);
-  -ms-transform: rotate(12deg);
-}
-
 /************************************************* footer */
 footer {
   background-color: pink;
