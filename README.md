@@ -104,9 +104,43 @@ This website is for anyone who is interested in working with me and learning mor
 ## [Jasmine Testing](https://jasmine.github.io/index.html)
 - The portfolio used Jasmine testing to test the functionality of the JavaScript/jQuery used in the website.
 # Testing
-
-
-
+## Responsive Navigation Bar
+- Using Chrome development tools, open the portfolio website at the following different screen sizes aka, Bootstrap breakpoints: 320x571, 576Xx571, 768x571, 992x571 and 1200x571.
+- Ensure the navigation bar can be clearly seen across all these different screen sizes.
+- Ensure the navigation bar, for sizes 320x571, 576x571 and 768x571 is hidden as a dropdown navigation bar with a toggle button that when clicked reveals the navigation links.
+- Ensure the navigation bar, for sizes 992x571 and 1200x571 becomes a full width bar that displays all its links on top of it so none are hidden.
+- Ensure when hovering over and clicking on the links their background changes colour.
+- Ensure clicking on the navigation links jumps the users down to the respective section of the website.
+## My Projects Section
+- Using Chrome development tools, open the portfolio website at the following different screen sizes aka, Bootstrap breakpoints: 320x571, 576Xx571, 768x571, 992x571 and 1200x571.
+- Ensure the “__*My Projects*__” section can be clearly seen across all these different screen sizes.
+- Click on each of the images in this section and ensure a different tab opens up to the respective project clicked on.
+## My Skills Section
+- Using Chrome development tools, open the portfolio website at the following different screen sizes aka, Bootstrap breakpoints: 320x571, 576Xx571, 768x571, 992x571 and 1200x571.
+- Ensure the “__*My Skills*__” section can be clearly seen across all these different screen sizes.
+- Hover over each row of skills in this section and ensure their background colour changes.
+## My CV Section
+- Using Chrome development tools, open the portfolio website at the following different screen sizes aka, Bootstrap breakpoints: 320x571, 576Xx571, 768x571, 992x571 and 1200x571.
+- Ensure the “__*My CV*__” section can be clearly seen across all these different screen sizes.
+- Click on the CV image in this section and ensure a different tab opens up to show the CV.
+## My Certificates Section
+- Using Chrome development tools, open the portfolio website at the following different screen sizes aka, Bootstrap breakpoints: 320x571, 576Xx571, 768x571, 992x571 and 1200x571.
+- Ensure the “__*My Certificates*__” section can be clearly seen across all these different screen sizes.
+- Click on the images in this section and ensure a different tab opens up to the respective certificate clicked on.
+## My About Me Section
+- Using Chrome development tools, open the portfolio website at the following different screen sizes aka, Bootstrap breakpoints: 320x571, 576Xx571, 768x571, 992x571 and 1200x571.
+- Ensure the “__*My About Me*__” section can be clearly seen across all these different screen sizes.
+- Hover over each icon in this section and ensure their text colour changes.
+- Click on each icon in this section and ensure they open up a separate tab to the respective social media account page.
+## Back To Top Button
+- Using Chrome development tools, open the portfolio website at the following different screen sizes aka, Bootstrap breakpoints: 320x571, 576Xx571, 768x571, 992x571 and 1200x571.
+- Ensure the “__*Back To Top*__” button can be clearly seen across all these different screen sizes.
+- Ensure the “__*Back To Top*__” button can only be seen once the website has been scrolled down.
+- Click on the “__*Back To Top*__” button and ensure the website jumps back up to the top of the page.
+## Footer
+- Using Chrome development tools, open the portfolio website at the following different screen sizes aka, Bootstrap breakpoints: 320x571, 576Xx571, 768x571, 992x571 and 1200x571.
+- Ensure the footer can be clearly seen across all these different screen sizes.
+- Click on each contact link in the footer and make sure a separate tab opens up to the respective social account page clicked on.
 
 
 
