@@ -9,6 +9,7 @@ The second project was a memory card game. The aim of this game was to provide u
 The third project was a movie ticket booking site. The aim of this project was to enable users the ability to browse through a series of movies displayed on the site, then create accounts to book the tickets they wanted. This project made use of CRUD functionality, allowing users to create accounts for booking tickets, read their created bookings, update their bookings when changing the ticket quantity or selected movie and delete bookings when no longer desired. The project used Python with Flask, MongoDB, HTML5, CSS3, Javascript, jQuery and Materialize.
 ### Slurps: Project 4
 The fourth project was an online drink shop, selling juices and milkshakes. The aim of this project was for users to buy the drinks offered on the site. Users could also utilise the CRUD functionality made available by creating accounts to keep record of their orders, reading their drink orders, updating their orders when making changes to them and deleting their orders if no longer interested. The project used Python with Djagno, SQL, HTML5, CSS3, Javascript, jQuery and Bootstrap.
+
 # UX
 This website is for anyone who is interested in working with me and learning more about my coding skills. Anyone who is interested can browse through the projects I’ve completed and can contact me via the contact details provided.
 ## User stories:
@@ -33,26 +34,75 @@ This website is for anyone who is interested in working with me and learning mor
 ![A wireframe image of the home page for my portfolio on large screens.](/media/wireframes/5.home-desktop.PNG)
 ![A wireframe image of the skills page for my portfolio on large screens.](/media/wireframes/8.skills-desktop.PNG)
 ![A wireframe image of the about me page for my portfolio on large screens.](/media/wireframes/11.about-desktop.PNG)
+
 # Features
-## Responsive Navigation Bar:
+## Responsive Navigation Bar
 - Allows users to quickly browse through the website based on the sections provided in the navigation bar as links, by having them click on the links and making the website jump down to the respective section selected.
-## My Projects Section:
+## My Projects Section
 - Allows users to see a screenshot of the projects made by myself to gain an idea on what they look like and what I’m capable of.
 - Allows users to click on the screenshot  images to be redirected to the project’s website where they can browse through the coding work I produced.
-## My Skills Section:
+## My Skills Section
 - Allows users to browse through the skills I’ve learnt, to be able to code. Users can highlight each row of skills, by hovering over them, to make reading them easier.
-## My CV Section:
+## My CV Section
 - Allows users to view a screenshot image of my CV and read it in full by clicking on the CV image to open it up in another webpage.
-## My Certificates Section:
+## My Certificates Section
 - Allows users to view the coding based certificates I’ve achieved by clicking on their screenshot images and being redirected to a separate webpage to view them.
-## My About Me Section:
+## My About Me Section
 - Allows users to browse through information that briefly describes who I am, my experiences and hobbies I enjoy. Users can also view a portrait of myself.
 - Allows users to view my work on GitHub and contact me using email and social media by clicking on the icons underneath my portrait and being redirected to my social media pages, GitHub account and have an email with my email address attached ready to be sent to me.
-## Back To Top Button:
+## Back To Top Button
 - Allows users to return back to the top of the website without having to scroll back up themselves. This is done by the users clicking on the arrow button at the bottom right-hand side of the screen and being redirected back to the top of the page.
-## Footer:
+## Footer
 - Allows users to view my contact details regarding my email, Github and LinkedIn accounts, by clicking on them, as they are all links, so they can contact me if they are interested in working with me.
+
 # Technologies Used
+## HTML5
+- This portfolio used HTML5 to create the basic structure and layout of the website.
+## CSS3
+- This portfolio used CSS3 to add design to the basic structure and layout of the website.
+## JavaScript
+- This portfolio used JavaScript to add functionality to the features of the website.
+## [jQuery](https://jquery.com/):
+- This portfolio used jQuery to speed up the process of adding the JavaScript functionality to the website.
+## [Bootstrap](https://getbootstrap.com/): 
+- This portfolio used Bootstrap to provide the code for the following:
+- Responsive breakpoints 
+- Navigation bar
+- Grid system
+- Tables 
+- Inline styling:
+    - Margins
+    - Font weights 
+    - Display properties
+## [Font Awesome](https://fontawesome.com/): 
+- This portfolio used Font Awesome to provide the icons used in the website. 
+## [Google Fonts](https://fonts.google.com/): 
+- This portfolio used Google Fonts to provide the font style of the website.
+## [Chrome Development Tools](https://developers.google.com/web/tools/chrome-devtools): 
+- This portfolio used Chrome Development Tools to see how responsive the website looked on different screen sizes.
+- Also used to debug issues regarding editing CSS code taken from external frameworks and libraries.
+## [W3C Markup Validation Service](https://validator.w3.org/): 
+- This portfolio used W3C Markup Validation Service to check for errors, requiring correction, present in the HTML code of the website.
+## [CSS Validation Service](https://jigsaw.w3.org/css-validator/): 
+- This portfolio used CSS Validation Service to check for errors, requiring correction, present in the CSS code of the website.
+## [Gitpod](https://www.gitpod.io/): 
+- This portfolio used Gitpod as the editor for coding out the README file, HTML, CSS, JavaScript and jQuery portions of the website. 
+- External library and framework links, images and wireframes were also stored here.
+- Its terminal was used to conduct commands such as: “__*git status*__”, “__*git add .*__”, “__*git commit -m “...”*__”, “__*git push*__”,  etc to complete this portfolio.
+## [GitHub](https://github.com/): 
+- This portfolio used GitHub to store saved code of the website via the “__*git push*__” command, as repositories.
+## [Balsamiq Wireframes](https://balsamiq.com/): 
+- This portfolio used Balsamiq Wireframes to create mockups of what the website aimed to look like to the user, on completion.
+## Snipping Tool
+- This portfolio used the Snipping Tool to edit the images and wireframes for the website.
+## [Jasmine Testing](https://jasmine.github.io/index.html):
+- The portfolio used Jasmine testing to test the functionality of the JavaScript/jQuery used in the website.
+## [HTML Formatter](https://www.freeformatter.com/html-formatter.html): 
+- This portfolio used the HTML Formatter to format the HTML code used to make this website.
+## [CSS Beautifier](https://www.freeformatter.com/css-beautifier.html): 
+- This portfolio used the CSS Beautifier to beautify the CSS code used to make this website.
+## [JavaScript Beautifier](https://www.freeformatter.com/javascript-beautifier.html): 
+- This portfolio used the JavaScript Beautifier to beautify the JS code used to make this website.
 
 
 
