@@ -103,6 +103,7 @@ This website is for anyone who is interested in working with me and learning mor
 - This portfolio used the Snipping Tool to edit the images and wireframes for the website.
 ## [Jasmine Testing](https://jasmine.github.io/index.html)
 - The portfolio used Jasmine testing to test the functionality of the JavaScript/jQuery used in the website.
+
 # Testing
 ## Responsive Navigation Bar
 - Using Chrome development tools, open the portfolio website at the following different screen sizes aka, Bootstrap breakpoints: 320x571, 576Xx571, 768x571, 992x571 and 1200x571.
@@ -142,15 +143,31 @@ This website is for anyone who is interested in working with me and learning mor
 - Ensure the footer can be clearly seen across all these different screen sizes.
 - Click on each contact link in the footer and make sure a separate tab opens up to the respective social account page clicked on.
 ## Jasmine Testing
-- Jasmine testing was used to test the Javascript involved in this project. This testing was specifically used to ensure the numerical values involved in the Javascript were  functioning correctly; not producing errors.
+- Jasmine testing was used to test the Javascript involved in this portfolio. This testing was specifically used to ensure the numerical values involved in the Javascript were  functioning correctly; not producing errors.
 - The testing files are ran by opening up the “__*portfolio.js*__” and “__*portfolioSpec.js*__” files and then clicking the preview button from the “__*jasmineTesting.html*__” file. This then shows which tests passed and failed.
 - Directories for Jasmine test files:
     - [**portfolio.js**](jasmineTesting/scripts/portfolio.js)
     - [**portfolioSpec.js**](jasmineTesting/spec/portfolioSpec.js)
     - [**jasmineTesting.html**](jasmineTesting/jasmineTesting.html)
 
-
-
-
 # Deployment
+This portfolio was deployed following these steps: 
+1. First, the repository section on GitHub was entered and the portfolio link containing the website and wireframes to be deployed, was clicked on.
+2. Then, the settings tab underneath the “__*My-Portfolio*__” heading, was clicked on to enter its settings.
+3. Next, the settings page was then scrolled down until the sub-title “__*GitHub Pages*__” was found.
+4. Later, under “__*GitHub Pages*__” a sub-title called “__*Source*__” was located. Under the “__*Source*__” sub-title was a button labelled “__*None*__”. This “__*None*__” button was clicked on to reveal a dropdown menu.
+5. In the dropdown menu the option called “__*master branch*__” was selected.
+6. After selecting the “__*master branch*__” option, the webpage refreshed automatically and deployed the website.
+7. Finally, the link to this newly deployed website was taken from the “__*GitHub Pages*__” section.
+## Running the code locally
+This portfolio was ran locally following these steps: 
+1. First enter the list of repositories section of GitHub.
+2. Then, under the repository name of the portfolio, click on the “__*Clone or download*__” button.
+3. Next, when in the dropdown “__*Clone with HTTPS*__” section click the clipboard button next to the URL to copy the repository's clone URL.
+4. Afterwards, enter into the local IDE and open Git Bash.
+5. Then, change the current working directory into the location of where the cloned directory is to be made.
+6. Next, type in “__*git clone*__” and paste in the URL that was copied earlier from the “__*Clone with HTTPS*__” section i.e.:
+    1. git clone: https://github.com/VioletViolaVi/My-Portfolio.git
+7. Lastly, tap the enter button on the keyboard to create the local clone.
+
 # Credits
