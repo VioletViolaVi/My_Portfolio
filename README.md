@@ -62,9 +62,9 @@ This website is for anyone who is interested in working with me and learning mor
 - This portfolio used CSS3 to add design to the basic structure and layout of the website.
 ## JavaScript
 - This portfolio used JavaScript to add functionality to the features of the website.
-## [jQuery](https://jquery.com/):
+## [jQuery](https://jquery.com/)
 - This portfolio used jQuery to speed up the process of adding the JavaScript functionality to the website.
-## [Bootstrap](https://getbootstrap.com/): 
+## [Bootstrap](https://getbootstrap.com/)
 - This portfolio used Bootstrap to provide the code for the following:
 - Responsive breakpoints 
 - Navigation bar
@@ -74,43 +74,43 @@ This website is for anyone who is interested in working with me and learning mor
     - Margins
     - Font weights 
     - Display properties
-## [Font Awesome](https://fontawesome.com/): 
+## [Font Awesome](https://fontawesome.com/)
 - This portfolio used Font Awesome to provide the icons used in the website. 
-## [Google Fonts](https://fonts.google.com/): 
+## [Google Fonts](https://fonts.google.com/)
 - This portfolio used Google Fonts to provide the font style of the website.
-## [Chrome Development Tools](https://developers.google.com/web/tools/chrome-devtools): 
+## [Chrome Development Tools](https://developers.google.com/web/tools/chrome-devtools)
 - This portfolio used Chrome Development Tools to see how responsive the website looked on different screen sizes.
 - Also used to debug issues regarding editing CSS code taken from external frameworks and libraries.
-## [W3C Markup Validation Service](https://validator.w3.org/): 
+## [W3C Markup Validation Service](https://validator.w3.org/)
 - This portfolio used W3C Markup Validation Service to check for errors, requiring correction, present in the HTML code of the website.
-## [CSS Validation Service](https://jigsaw.w3.org/css-validator/): 
+## [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 - This portfolio used CSS Validation Service to check for errors, requiring correction, present in the CSS code of the website.
-## [Gitpod](https://www.gitpod.io/): 
+## [Gitpod](https://www.gitpod.io/) 
 - This portfolio used Gitpod as the editor for coding out the README file, HTML, CSS, JavaScript and jQuery portions of the website. 
 - External library and framework links, images and wireframes were also stored here.
 - Its terminal was used to conduct commands such as: “__*git status*__”, “__*git add .*__”, “__*git commit -m “...”*__”, “__*git push*__”,  etc to complete this portfolio.
-## [GitHub](https://github.com/): 
+## [GitHub](https://github.com/) 
 - This portfolio used GitHub to store saved code of the website via the “__*git push*__” command, as repositories.
-## [Balsamiq Wireframes](https://balsamiq.com/): 
+## [HTML Formatter](https://www.freeformatter.com/html-formatter.html) 
+- This portfolio used the HTML Formatter to format the HTML code used to make this website.
+## [CSS Beautifier](https://www.freeformatter.com/css-beautifier.html) 
+- This portfolio used the CSS Beautifier to beautify the CSS code used to make this website.
+## [JavaScript Beautifier](https://www.freeformatter.com/javascript-beautifier.html) 
+- This portfolio used the JavaScript Beautifier to beautify the JS code used to make this website.
+## [Balsamiq Wireframes](https://balsamiq.com/)
 - This portfolio used Balsamiq Wireframes to create mockups of what the website aimed to look like to the user, on completion.
 ## Snipping Tool
 - This portfolio used the Snipping Tool to edit the images and wireframes for the website.
-## [Jasmine Testing](https://jasmine.github.io/index.html):
+## [Jasmine Testing](https://jasmine.github.io/index.html)
 - The portfolio used Jasmine testing to test the functionality of the JavaScript/jQuery used in the website.
-## [HTML Formatter](https://www.freeformatter.com/html-formatter.html): 
-- This portfolio used the HTML Formatter to format the HTML code used to make this website.
-## [CSS Beautifier](https://www.freeformatter.com/css-beautifier.html): 
-- This portfolio used the CSS Beautifier to beautify the CSS code used to make this website.
-## [JavaScript Beautifier](https://www.freeformatter.com/javascript-beautifier.html): 
-- This portfolio used the JavaScript Beautifier to beautify the JS code used to make this website.
-
-
-
-
-
-
-
-
 # Testing
+
+
+
+
+
+
+
+
 # Deployment
 # Credits
