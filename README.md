@@ -17,12 +17,8 @@ This website is for anyone who is interested in working with me and learning mor
 ## Designer stories:
 - As the designer, I want to create a portfolio that is easy to browse through and provides easy access to my previous projects, so anyone who’s interested can view my coding work.
 - As the designer, I want to add my contact details to my portfolio so anyone who’s interested can contact me about working together on future projects.
-
-
-
-
-
-
+# Activity Diagram
+![An activity diagram displaying how to navigate through my portfolio.](/media/activityDiagram/activityDiagram.jpg)
 ## Small Screens
 ![A wireframe image of the navigation bar for my portfolio on small screens.](/media/wireframes/1.navbar-mobile.PNG)
 ![A wireframe image of the home page for my portfolio on small screens.](/media/wireframes/3.home-mobile.PNG)
@@ -38,6 +34,11 @@ This website is for anyone who is interested in working with me and learning mor
 ![A wireframe image of the skills page for my portfolio on large screens.](/media/wireframes/8.skills-desktop.PNG)
 ![A wireframe image of the about me page for my portfolio on large screens.](/media/wireframes/11.about-desktop.PNG)
 # Features
+
+
+
+
+
 # Technologies Used
 # Testing
 # Deployment
