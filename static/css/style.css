@@ -24,7 +24,7 @@ a:visited {
   position: fixed;
   right: 0.5em;
   bottom: 5em;
-  z-index: 1;
+  z-index: 2;
   display: none;
   border: deeppink solid 0.2em;
   cursor: pointer;
@@ -51,7 +51,7 @@ section {
 .navbar.navbar.navbar-expand-lg {
   background-color: pink;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
   top: 0;
 }
@@ -99,9 +99,14 @@ html {
   color: deeppink;
 }
 
+.fas.fa-caret-left,
+.fas.fa-caret-right {
+  color: deeppink;
+  font-size: 3em;
+}
+
 .project-img {
-  height: 10em;
-  width: 18em;
+  height: 12em;
   border: deeppink 0.3em solid;
   border-radius: 0.2em;
 }
