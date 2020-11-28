@@ -73,7 +73,7 @@ button.navbar-toggler:hover {
 }
 
 .nav-link {
-  text-align: left;
+  text-align: center;
 }
 
 .nav-link:active,
@@ -181,7 +181,7 @@ body {
 footer {
   background-color: pink;
   margin-top: 2em;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   width: 100%;
 }
