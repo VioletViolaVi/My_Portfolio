@@ -38,6 +38,8 @@ This website is for anyone who is interested in working with me and learning mor
 # Features
 ## Responsive Navigation Bar
 - Allows users to quickly browse through the website based on the sections provided in the navigation bar as links, by having them click on the links and making the website jump down to the respective section selected.
+## Responsive Carousel
+- Allows users to view screenshot images of the projects I’ve produced. Users can also click on them to open up a separate tab that takes them to the website of the respectively clicked image.
 ## My Projects Section
 - Allows users to see a screenshot of the projects made by myself to gain an idea on what they look like and what I’m capable of.
 - Allows users to click on the screenshot  images to be redirected to the project’s website where they can browse through the coding work I produced.
@@ -112,6 +114,11 @@ This website is for anyone who is interested in working with me and learning mor
 - Ensure the navigation bar, for sizes 992x571 and 1200x571 becomes a full width bar that displays all its links on top of it so none are hidden.
 - Ensure when hovering over and clicking on the links their background changes colour.
 - Ensure clicking on the navigation links jumps the users down to the respective section of the website.
+## Responsive Carousel
+- Using Chrome development tools, open the portfolio website at the following different screen sizes aka, Bootstrap breakpoints: 320x571, 576Xx571, 768x571, 992x571 and 1200x571.
+- Ensure the carousel can be clearly seen across all these different screen sizes.
+- View the carousel and ensure the images change by fading out, on their own after short time intervals.
+- Ensure clicking on the carousel arrows changes the images displayed. 
 ## My Projects Section
 - Using Chrome development tools, open the portfolio website at the following different screen sizes aka, Bootstrap breakpoints: 320x571, 576Xx571, 768x571, 992x571 and 1200x571.
 - Ensure the “__*My Projects*__” section can be clearly seen across all these different screen sizes.
