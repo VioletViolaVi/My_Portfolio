@@ -246,7 +246,7 @@ label[for="aboutMeImg"] {
 	}
 	/************************************************* footer */
 	body {
-		height: 138em;
+		height: 150em;
 		position: relative;
 		min-height: 0%;
 		bottom: 0;
@@ -293,6 +293,6 @@ label[for="aboutMeImg"] {
 	}
 	/************************************************* footer */
 	body {
-		height: 146em;
+		height: 158em;
 	}
 }
