@@ -229,23 +229,32 @@ label[for="aboutMeImg"] {
   body {
     height: 138em;
     position: relative;
+    min-height: 0%;
+    bottom: 0;
+    width: 100%;
   }
 
   footer {
     position: absolute;
   }
+
   /************************************************* intro */
 
   .greeting {
-    margin-top: 1.5em;
+    margin-top: 2em;
   }
 
   #myProjects {
     padding-top: 2em;
   }
 
-  .fas.fa-caret-left,
+  .fas.fa-caret-left {
+    left: -2em;
+    font-size: 7em;
+  }
+
   .fas.fa-caret-right {
+    right: -2em;
     font-size: 7em;
   }
 
@@ -268,6 +277,11 @@ label[for="aboutMeImg"] {
 @media (min-width: 1200px) {
   /************************************************* intro */
   .project-img {
-    height: 33em;
+    height: 34em;
+  }
+
+  /************************************************* footer */
+  body {
+    height: 146em;
   }
 }
