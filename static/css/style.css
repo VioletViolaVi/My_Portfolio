@@ -99,7 +99,7 @@ footer a p {
   color: black;
 }
 
-/************************************************* home */
+/************************************************* intro */
 .greeting {
   margin-top: 2em;
 }
@@ -135,7 +135,7 @@ tr:hover {
 }
 
 .cv-img,
-.certificate-img{
+.certificate-img {
   height: 18em;
   width: 15em;
   border: deeppink 0.3em solid;
@@ -182,35 +182,29 @@ label[for="aboutMeImg"] {
 /*************************************************  media queries *************************************************/
 /* bootstrap media query */
 @media (min-width: 576px) {
-  /************************************************* home */
+  /************************************************* intro */
   .project-img {
     height: 17em;
   }
 
-/************************************************* qualifications */
-.cv-img,
-.certificate-img {
+  /************************************************* qualifications */
+  .cv-img,
+  .certificate-img {
     height: 21em;
     width: 18em;
   }
-
 }
 
 /* bootstrap media query */
 @media (min-width: 768px) {
-  /************************************************* home */
-.project-img {
+  /************************************************* intro */
+  .project-img {
     height: 23em;
-}
+  }
 }
 
 /* bootstrap media query */
 @media (min-width: 992px) {
-/************************************************* universal */
-body{
-height: 135em;
-}
-
   /************************************************* navbar */
   #desktopNav {
     background-color: pink;
@@ -231,18 +225,23 @@ height: 135em;
     border-bottom: solid deeppink 0.1em;
   }
 
-/************************************************* footer */
-footer {
-position: relative
-}
-
-  /************************************************* home */
-  .d-none.d-lg-block.font-weight-bolder {
-    margin-top: 2em;
+  /************************************************* footer */
+  body {
+    height: 138em;
+    position: relative;
   }
+
+  footer {
+    position: absolute;
+  }
+  /************************************************* intro */
 
   .greeting {
     margin-top: 1.5em;
+  }
+
+  #myProjects {
+    padding-top: 2em;
   }
 
   .fas.fa-caret-left,
@@ -253,11 +252,21 @@ position: relative
   .project-img {
     height: 28em;
   }
+
+  /************************************************* qualifications */
+  #myQualifications {
+    padding-top: 2em;
+  }
+
+  /************************************************* about me */
+  #aboutMe {
+    padding-top: 2em;
+  }
 }
 
 /* bootstrap media query */
 @media (min-width: 1200px) {
-  /************************************************* home */
+  /************************************************* intro */
   .project-img {
     height: 33em;
   }
