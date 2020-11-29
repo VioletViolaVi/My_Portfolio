@@ -87,6 +87,18 @@ html {
   scroll-padding-top: 4em;
 }
 
+/************************************************* footer */
+footer {
+  background-color: pink;
+  margin-top: 2em;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a p {
+  color: black;
+}
+
 /************************************************* home */
 .greeting {
   margin-top: 2em;
@@ -108,7 +120,7 @@ html {
   border-radius: 0.2em;
 }
 
-/************************************************* skills */
+/************************************************* qualifications */
 .table thead th {
   background-color: pink;
 }
@@ -122,16 +134,8 @@ tr:hover {
   background-color: rgba(250, 211, 217, 0.678);
 }
 
-/************************************************* cv */
-.cv-img {
-  height: 18em;
-  width: 15em;
-  border: deeppink 0.3em solid;
-  border-radius: 0.2em;
-}
-
-/************************************************* certificates */
-.certificate-img {
+.cv-img,
+.certificate-img{
   height: 18em;
   width: 15em;
   border: deeppink 0.3em solid;
@@ -175,23 +179,6 @@ label[for="aboutMeImg"] {
   color: pink;
 }
 
-/************************************************* footer */
-body {
-  height: 185em;
-}
-
-footer {
-  background-color: pink;
-  margin-top: 2em;
-  /* position: fixed; */
-  bottom: 0;
-  width: 100%;
-}
-
-footer a p {
-  color: black;
-}
-
 /*************************************************  media queries *************************************************/
 /* bootstrap media query */
 @media (min-width: 576px) {
@@ -200,28 +187,30 @@ footer a p {
     height: 17em;
   }
 
-  /************************************************* cv */
-  .cv-img {
+/************************************************* qualifications */
+.cv-img,
+.certificate-img {
     height: 21em;
     width: 18em;
   }
 
-  /************************************************* footer */
-  body {
-    height: 180em;
-  }
 }
 
 /* bootstrap media query */
 @media (min-width: 768px) {
-  /************************************************* footer */
-  body {
-    height: 138em;
-  }
+  /************************************************* home */
+.project-img {
+    height: 23em;
+}
 }
 
 /* bootstrap media query */
 @media (min-width: 992px) {
+/************************************************* universal */
+body{
+height: 135em;
+}
+
   /************************************************* navbar */
   #desktopNav {
     background-color: pink;
@@ -235,12 +224,17 @@ footer a p {
 
   #desktopLinks li a {
     color: black;
-    margin: 0.7em;
+    margin: 0.2em;
   }
 
   #desktopNav #desktopLinks a:hover {
     border-bottom: solid deeppink 0.1em;
   }
+
+/************************************************* footer */
+footer {
+position: relative
+}
 
   /************************************************* home */
   .d-none.d-lg-block.font-weight-bolder {
@@ -248,7 +242,7 @@ footer a p {
   }
 
   .greeting {
-    margin-top: 0em;
+    margin-top: 1.5em;
   }
 
   .fas.fa-caret-left,
@@ -258,11 +252,6 @@ footer a p {
 
   .project-img {
     height: 28em;
-  }
-
-  /************************************************* footer */
-  body {
-    height: 136em;
   }
 }
 
