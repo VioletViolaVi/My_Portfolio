@@ -240,7 +240,7 @@ label[for="aboutMeImg"] {
   }
   /************************************************* footer */
   body {
-    height: 150em;
+    height: 140em;
     position: relative;
     min-height: 0%;
     bottom: 0;
@@ -264,14 +264,6 @@ label[for="aboutMeImg"] {
   .project-img {
     height: 28em;
   }
-  /************************************************* qualifications */
-  #myQualifications {
-    padding-top: 2em;
-  }
-  /************************************************* about me */
-  #aboutMe {
-    padding-top: 2em;
-  }
 }
 
 /* bootstrap media query */
@@ -283,6 +275,6 @@ label[for="aboutMeImg"] {
   }
   /************************************************* footer */
   body {
-    height: 158em;
+    height: 145em;
   }
 }
