@@ -11,6 +11,7 @@
 
 body {
   background-color: rgba(255, 182, 193, 0.253);
+  cursor: default;
 }
 
 a, a:hover, a:active, a:focus, a:visited {
@@ -41,10 +42,6 @@ a, a:hover, a:active, a:focus, a:visited {
   font-size: 1.5em;
   margin-top: 0.2em;
   color: deeppink;
-}
-
-section {
-  cursor: default;
 }
 
 /************************************************* navbar */
@@ -114,9 +111,14 @@ footer a p {
   color: deeppink;
 }
 
+.carousel-titles {
+  margin-top: 2em;
+}
+
 .fas.fa-caret-left, .fas.fa-caret-right {
   color: deeppink;
   font-size: 3em;
+  margin-top: 2em;
 }
 
 .carousel-project-img {
@@ -251,17 +253,6 @@ label[for="aboutMeImg"] {
     border-bottom: solid deeppink 0.1em;
     transition: 0.2s;
   }
-  /************************************************* footer */
-  body {
-    height: 140em;
-    position: relative;
-    min-height: 0%;
-    bottom: 0;
-    width: 100%;
-  }
-  footer {
-    position: absolute;
-  }
   /************************************************* intro */
   .greeting {
     margin-top: 2em;
@@ -294,9 +285,5 @@ label[for="aboutMeImg"] {
   .project-img {
     width: 22em;
     height: 12em;
-  }
-  /************************************************* footer */
-  body {
-    height: 145em;
   }
 }
