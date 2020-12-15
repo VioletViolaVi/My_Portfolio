@@ -15,6 +15,7 @@ body {
 
 a, a:hover, a:active, a:focus, a:visited {
   text-decoration: none;
+  color: black;
 }
 
 .back-to-top-btn {
@@ -86,10 +87,16 @@ html {
 
 /************************************************* footer */
 
+body {
+  position: relative;
+  min-height: 88vh;
+  padding-bottom: 140px;
+}
+
 footer {
-  background-color: pink;
-  margin-top: 2em;
+  position: absolute;
   bottom: 0;
+  background-color: pink;
   width: 100%;
 }
 
