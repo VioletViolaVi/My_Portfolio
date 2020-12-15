@@ -120,6 +120,10 @@ footer a p {
 
 /************************************************* projects */
 
+#myProjects {
+  margin-top: 2em;
+}
+
 .project-img {
   border: deeppink 0.3em solid;
   border-radius: 0.2em;
@@ -128,6 +132,10 @@ footer a p {
 }
 
 /************************************************* qualifications */
+
+#myQualifications {
+  margin-top: 2em;
+}
 
 .table thead th {
   background-color: pink;
@@ -150,6 +158,10 @@ tr:hover {
 }
 
 /************************************************* about me */
+
+#aboutMe {
+  margin-top: 2em;
+}
 
 label[for="aboutMeImg"] {
   background-color: rgba(250, 211, 217, 0.678);
