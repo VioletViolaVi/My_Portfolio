@@ -86,8 +86,7 @@ html {
 
 body {
   position: relative;
-  min-height: 88vh;
-  padding-bottom: 140px;
+  min-height: 91vh;
 }
 
 footer {
@@ -233,7 +232,8 @@ label[for="aboutMeImg"] {
   }
   /************************************************* projects */
   .project-img {
-    width: 10em;
+    width: 21em;
+    height: 12em;
   }
 }
 
@@ -276,7 +276,8 @@ label[for="aboutMeImg"] {
   }
   /************************************************* projects */
   .project-img {
-    width: 18em;
+    width: 27em;
+    height: 13em;
   }
 }
 
@@ -285,7 +286,16 @@ label[for="aboutMeImg"] {
 @media (min-width: 1200px) {
   /************************************************* projects */
   .project-img {
-    width: 22em;
-    height: 12em;
+    width: 32em;
+    height: 15em;
+  }
+}
+
+/* custom media query */
+
+@media (min-width: 1366px) {
+  /************************************************* footer */
+  body {
+    min-height: 100vh;
   }
 }
