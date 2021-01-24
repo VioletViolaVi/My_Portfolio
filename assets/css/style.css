@@ -1,1 +1,29 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+/************************************************************************* universal */
+* {
+  font-family: "Rubik", sans-serif;
+  padding: 0em;
+  margin: 0em;
+}
+
+body {
+  cursor: default;
+}
+
+/************************************************************************* name nav */
+.navbar {
+  background-color: lightblue;
+}
+
+.navbar-brand.h1 {
+  color: black;
+  font-weight: 900;
+}
+
+.fab.fa-linkedin,
+.fab.fa-github-square,
+.fas.fa-envelope,
+.fab.fa-twitter-square {
+  color: darkblue;
+  font-size: 1.5em;
+}
+/*# sourceMappingURL=style.css.map */
