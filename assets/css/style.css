@@ -38,6 +38,14 @@ body {
   background-color: darkblue;
 }
 
+.vivianNav ul {
+  list-style: none;
+}
+
+.vivianNav ul li {
+  display: inline;
+}
+
 .navbar-brand.h1 {
   color: lightblue;
   font-weight: 900;
@@ -119,5 +127,34 @@ body {
   height: 10em;
   width: 10em;
   border: solid blue 0.2em;
+}
+
+/************************************************************************* breakpoints */
+@media (min-width: 576px) {
+  /************************************************************************* name nav */
+  .navbar-brand.h1 {
+    font-size: 1.5em;
+  }
+  .fab.fa-linkedin,
+  .fab.fa-github-square,
+  .fas.fa-envelope,
+  .fab.fa-twitter-square {
+    font-size: 2.2em;
+  }
+  /************************************************************************* projects */
+  .projectImg {
+    width: 10em;
+    height: 6em;
+  }
+  /************************************************************************* skills */
+  .diplomaImg {
+    height: 23em;
+    width: 16em;
+  }
+  /************************************************************************* about me */
+  .vivianImg {
+    height: 13em;
+    width: 13em;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -53,6 +53,8 @@ body {
 /************************************************************************* name nav */
 $vivianNav: (
   "bgColour": darkblue,
+  "listStyle": none,
+  "inlineDisplay": inline,
   "vivianColour": lightblue,
   "iconsColour": lightblue,
   "iconsSize": 1.5em,
@@ -62,6 +64,14 @@ $vivianNav: (
 
 .vivianNav {
   background-color: map-get($vivianNav, "bgColour");
+}
+
+.vivianNav ul {
+  list-style: map-get($vivianNav, "listStyle");
+}
+
+.vivianNav ul li {
+  display: map-get($vivianNav, "inlineDisplay");
 }
 
 .navbar-brand.h1 {
@@ -175,4 +185,61 @@ $about: (
   height: map-get($about, "imgHeight");
   width: map-get($about, "imgWidth");
   border: map-get($about, "imgBorder");
+}
+
+/************************************************************************* breakpoints */
+$breakpoints: (
+  "576px": 576px,
+);
+
+@media (min-width: map-get($breakpoints, "576px")) {
+  /************************************************************************* name nav */
+  @mixin vivianName {
+    font-size: 1.5em;
+  }
+
+  .navbar-brand.h1 {
+    @include vivianName;
+  }
+
+  @mixin socialIcons {
+    font-size: 2.2em;
+  }
+
+  .fab.fa-linkedin,
+  .fab.fa-github-square,
+  .fas.fa-envelope,
+  .fab.fa-twitter-square {
+    @include socialIcons;
+  }
+
+  /************************************************************************* projects */
+  @mixin projectImg {
+    width: 10em;
+    height: 6em;
+  }
+
+  .projectImg {
+    @include projectImg;
+  }
+
+  /************************************************************************* skills */
+  @mixin diplomaImg {
+    height: 23em;
+    width: 16em;
+  }
+
+  .diplomaImg {
+    @include diplomaImg;
+  }
+
+  /************************************************************************* about me */
+  @mixin vivianImg {
+    height: 13em;
+    width: 13em;
+  }
+
+  .vivianImg {
+    @include vivianImg;
+  }
 }
