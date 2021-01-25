@@ -22,18 +22,18 @@ This website is for anyone who is interested in working with me and learning mor
 ![An activity diagram displaying how to navigate through my portfolio.](/media/activityDiagram/activityDiagram.PNG)
 ## Small Screens
 ![A wireframe image of the navigation bar for my portfolio on small screens.](/media/wireframes/1.navbar-mobile.PNG)
-![A wireframe image of the home page for my portfolio on small screens.](/media/wireframes/3.home-mobile.PNG)
-![A wireframe image of the skills page for my portfolio on small screens.](/media/wireframes/6.skills-mobile.PNG)
-![A wireframe image of the about me page for my portfolio on small screens.](/media/wireframes/9.about-mobile.PNG)
+![A wireframe image of the home page for my portfolio on small screens.](/media/wireframes/2.home-mobile.PNG)
+![A wireframe image of the skills page for my portfolio on small screens.](/media/wireframes/3.skills-mobile.PNG)
+![A wireframe image of the about me page for my portfolio on small screens.](/media/wireframes/4.aboutMe-mobile.PNG)
 ## Medium Screens
-![A wireframe image of the navigation bar for my portfolio on medium screens.](/media/wireframes/2.navbar-tablet.PNG)
-![A wireframe image of the home page for my portfolio on medium screens.](/media/wireframes/4.home-tablet.PNG)
+![A wireframe image of the navigation bar for my portfolio on medium screens.](/media/wireframes/5.navbar-tablet.PNG)
+![A wireframe image of the home page for my portfolio on medium screens.](/media/wireframes/6.home-tablet.PNG)
 ![A wireframe image of the skills page for my portfolio on medium screens.](/media/wireframes/7.skills-tablet.PNG)
-![A wireframe image of the about me page for my portfolio on medium screens.](/media/wireframes/10.about-tablet.PNG)
+![A wireframe image of the about me page for my portfolio on medium screens.](/media/wireframes/8.aboutMe-tablet.PNG)
 ## Large Screens
-![A wireframe image of the home page for my portfolio on large screens.](/media/wireframes/5.home-desktop.PNG)
-![A wireframe image of the skills page for my portfolio on large screens.](/media/wireframes/8.skills-desktop.PNG)
-![A wireframe image of the about me page for my portfolio on large screens.](/media/wireframes/11.about-desktop.PNG)
+![A wireframe image of the home page for my portfolio on large screens.](/media/wireframes/9.home-desktop.PNG)
+![A wireframe image of the skills page for my portfolio on large screens.](/media/wireframes/10.skills-desktop.PNG)
+![A wireframe image of the about me page for my portfolio on large screens.](/media/wireframes/11.aboutMe-desktop.PNG)
 
 # Features
 ## Responsive Navigation Bar
