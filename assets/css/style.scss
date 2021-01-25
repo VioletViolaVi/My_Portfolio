@@ -184,11 +184,12 @@ $about: (
   border: map-get($about, "imgBorder");
 }
 
-/************************************************************************* breakpoints */
+/************************************************************************* breakpoints *************************************************************************/
 $breakpoints: (
   "576px": 576px,
   "768px": 768px,
   "992px": 992px,
+  "1200px": 1200px,
 );
 
 @media (min-width: map-get($breakpoints, "576px")) {
@@ -276,5 +277,51 @@ $breakpoints: (
 
   .projectImg {
     @include projectImg;
+  }
+}
+
+@media (min-width: map-get($breakpoints, "1200px")) {
+  /************************************************************************* universal */
+  @mixin titles {
+    font-size: 2.5em;
+  }
+
+  .title {
+    @include titles;
+  }
+
+  @mixin imgLabels {
+    font-size: 1.5em;
+  }
+
+  .allHeadings label {
+    @include imgLabels;
+  }
+
+  /************************************************************************* projects */
+  @mixin projectImg {
+    width: 22em;
+    height: 11em;
+  }
+
+  .projectImg {
+    @include projectImg;
+  }
+
+  /************************************************************************* about me */
+  @mixin aboutMeHello {
+    font-size: 1.5em;
+  }
+
+  .aboutMeText h6 {
+    @include aboutMeHello;
+  }
+
+  @mixin aboutMePara {
+    font-size: 1.3em;
+  }
+
+  .aboutMeText p {
+    @include aboutMePara;
   }
 }
