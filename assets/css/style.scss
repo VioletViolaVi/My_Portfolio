@@ -37,7 +37,7 @@ body {
   cursor: map-get($universal, "arrowCursor");
 }
 
-.title{
+.title {
   text-align: map-get($universal, "mainAndSubheadingCenter");
 }
 
@@ -147,20 +147,36 @@ $projects: (
 $skills: (
   "awardHeight": 15em,
   "awardWidth": 10em,
+  "bgColour": lightblue,
+  "borders": 0.2em solid darkblue,
 );
 
 .diplomaImg {
   height: map-get($skills, "awardHeight");
   width: map-get($skills, "awardWidth");
+  border: map-get($skills, "borders");
+}
+
+.table thead {
+  background-color: map-get($skills, "bgColour");
+  border: map-get($skills, "borders");
+}
+
+.table tbody tr {
+  border: map-get($skills, "borders");
 }
 
 /************************************************************************* about me */
 $about: (
-  "imgHeight": 13em,
-  "imgWidth": 13em,
+  "imgHeight": 10em,
+  "imgWidth": 10em,
+  "imgBorder": solid blue 0.2em,
+  "imgRadius": 0.7em,
 );
 
-.vivianImg{
+.vivianImg {
   height: map-get($about, "imgHeight");
   width: map-get($about, "imgWidth");
+  border: map-get($about, "imgBorder");
+  border-radius: map-get($about, "imgRadius");
 }

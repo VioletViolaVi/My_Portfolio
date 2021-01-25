@@ -103,11 +103,23 @@ body {
 .diplomaImg {
   height: 15em;
   width: 10em;
+  border: 0.2em solid darkblue;
+}
+
+.table thead {
+  background-color: lightblue;
+  border: 0.2em solid darkblue;
+}
+
+.table tbody tr {
+  border: 0.2em solid darkblue;
 }
 
 /************************************************************************* about me */
 .vivianImg {
-  height: 13em;
-  width: 13em;
+  height: 10em;
+  width: 10em;
+  border: solid blue 0.2em;
+  border-radius: 0.7em;
 }
 /*# sourceMappingURL=style.css.map */
