@@ -133,14 +133,12 @@ $projects: (
   "widthImg": 8em,
   "heightImg": 5em,
   "imgBorder": darkblue solid 0.2em,
-  "imgRadius": 0.5em,
 );
 
 .projectImg {
   width: map-get($projects, "widthImg");
   height: map-get($projects, "heightImg");
   border: map-get($projects, "imgBorder");
-  border-radius: map-get($projects, "imgRadius");
 }
 
 /************************************************************************* skills */
@@ -171,12 +169,10 @@ $about: (
   "imgHeight": 10em,
   "imgWidth": 10em,
   "imgBorder": solid blue 0.2em,
-  "imgRadius": 0.7em,
 );
 
 .vivianImg {
   height: map-get($about, "imgHeight");
   width: map-get($about, "imgWidth");
   border: map-get($about, "imgBorder");
-  border-radius: map-get($about, "imgRadius");
 }
