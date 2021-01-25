@@ -12,26 +12,26 @@ $mainCursor: default;
   margin: map-get($universal, "margin");
 }
 
-body{
-    cursor: $mainCursor;
+body {
+  cursor: $mainCursor;
 }
 
 /************************************************************************* name nav */
-$vivianNav:(
-    "bgColour": lightblue,
-    "vivianColour": black,
-    "iconsColour": darkblue,
-    "iconsSize": 1.5em,
-    "vivianWeight": 900,
+$vivianNav: (
+  "bgColour": darkblue,
+  "vivianColour": lightblue,
+  "iconsColour": lightblue,
+  "iconsSize": 1.5em,
+  "vivianWeight": 900,
 );
 
-.navbar{
-    background-color: map-get($vivianNav , "bgColour");
+.vivianNav {
+  background-color: map-get($vivianNav, "bgColour");
 }
 
-.navbar-brand.h1{
-    color: map-get($vivianNav, "vivianColour");
-    font-weight: map-get($vivianNav, "vivianWeight");
+.navbar-brand.h1 {
+  color: map-get($vivianNav, "vivianColour");
+  font-weight: map-get($vivianNav, "vivianWeight");
 }
 
 .fab.fa-linkedin,
@@ -39,5 +39,32 @@ $vivianNav:(
 .fas.fa-envelope,
 .fab.fa-twitter-square {
   color: map-get($vivianNav, "iconsColour");
-  font-size: map-get($vivianNav, "iconsSize");;
+  font-size: map-get($vivianNav, "iconsSize");
+}
+
+/************************************************************************* menu nav */
+$menuNav: (
+  "bgColour": lightblue,
+  "barsIcon": darkblue,
+  "barsBorder": darkblue solid 0.1em,
+  "barsOutline": none,
+);
+
+.menuNav {
+  background-color: map-get($menuNav, "bgColour");
+}
+
+.fas.fa-bars {
+  color: map-get($menuNav, "barsIcon");
+}
+
+.navbar-toggler{
+    text-align: left;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+	border: map-get($menuNav, "barsBorder");
+	outline: map-get($menuNav, "barsOutline");
 }

@@ -10,12 +10,12 @@ body {
 }
 
 /************************************************************************* name nav */
-.navbar {
-  background-color: lightblue;
+.vivianNav {
+  background-color: darkblue;
 }
 
 .navbar-brand.h1 {
-  color: black;
+  color: lightblue;
   font-weight: 900;
 }
 
@@ -23,7 +23,27 @@ body {
 .fab.fa-github-square,
 .fas.fa-envelope,
 .fab.fa-twitter-square {
-  color: darkblue;
+  color: lightblue;
   font-size: 1.5em;
+}
+
+/************************************************************************* menu nav */
+.menuNav {
+  background-color: lightblue;
+}
+
+.fas.fa-bars {
+  color: darkblue;
+}
+
+.navbar-toggler {
+  text-align: left;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+  border: darkblue solid 0.1em;
+  outline: none;
 }
 /*# sourceMappingURL=style.css.map */
