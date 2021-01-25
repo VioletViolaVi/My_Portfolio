@@ -4,14 +4,14 @@ $universal: (
   "padding": 0em,
   "margin": 0em,
   "mainCursor": default,
-  "arrowColour": darkblue,
+  "arrowColour": blue,
   "arrowSize": 2.5em,
   "arrowPosition": fixed,
   "arrowBottomRight": 0.5em,
   "arrowDisplay": none,
   "arrowZIndex": 1,
   "arrowCursor": pointer,
-  "headingWeight": 900,
+  "mainAndSubWeight": 900,
   "mainAndSubheadingCenter": center,
   "headingColour": black,
 );
@@ -37,13 +37,10 @@ body {
   cursor: map-get($universal, "arrowCursor");
 }
 
-.title {
-  text-align: map-get($universal, "mainAndSubheadingCenter");
-}
-
+.title,
 .allHeadings {
-  font-weight: map-get($universal, "headingWeight");
   text-align: map-get($universal, "mainAndSubheadingCenter");
+  font-weight: map-get($universal, "mainAndSubWeight");
 }
 
 .allHeadings label {
@@ -178,7 +175,7 @@ $skills: (
 $about: (
   "imgHeight": 10em,
   "imgWidth": 10em,
-  "imgBorder": solid blue 0.2em,
+  "imgBorder": solid darkblue 0.2em,
 );
 
 .vivianImg {
@@ -190,6 +187,7 @@ $about: (
 /************************************************************************* breakpoints */
 $breakpoints: (
   "576px": 576px,
+  "768px": 768px,
 );
 
 @media (min-width: map-get($breakpoints, "576px")) {
@@ -241,5 +239,17 @@ $breakpoints: (
 
   .vivianImg {
     @include vivianImg;
+  }
+}
+
+@media (min-width: map-get($breakpoints, "768px")) {
+  /************************************************************************* projects */
+  @mixin projectImg {
+    width: 13.5em;
+    height: 7em;
+  }
+
+  .projectImg {
+    @include projectImg;
   }
 }
