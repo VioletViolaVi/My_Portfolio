@@ -11,6 +11,9 @@ $universal: (
   "arrowDisplay": none,
   "arrowZIndex": 1,
   "arrowCursor": pointer,
+  "headingWeight": 900,
+  "headingCenter": center,
+  "headingColour": black,
 );
 
 * {
@@ -32,6 +35,15 @@ body {
   display: map-get($universal, "arrowDisplay");
   z-index: map-get($universal, "arrowZIndex");
   cursor: map-get($universal, "arrowCursor");
+}
+
+.allHeadings {
+  font-weight: map-get($universal, "headingWeight");
+  text-align: map-get($universal, "headingCenter");
+}
+
+.allHeadings label {
+  color: map-get($universal, "headingColour");
 }
 
 /************************************************************************* name nav */
@@ -114,8 +126,6 @@ $menuNav: (
 
 /************************************************************************* projects */
 $projects: (
-  "labelColour": black,
-  "labelWeight": 900,
   "text": center,
   "widthImg": 8em,
   "heightImg": 5em,
@@ -123,12 +133,6 @@ $projects: (
   "imgRadius": 0.5em,
 );
 
-.allProjects label {
-  color: map-get($projects, "labelColour");
-  font-weight: map-get($projects, "labelWeight");
-}
-
-.allProjects,
 #projects {
   text-align: map-get($projects, "text");
 }
@@ -138,4 +142,20 @@ $projects: (
   height: map-get($projects, "heightImg");
   border: map-get($projects, "imgBorder");
   border-radius: map-get($projects, "imgRadius");
+}
+
+/************************************************************************* skills */
+$skills: (
+  "text": center,
+  "awardHeight": 15em,
+  "awardWidth": 10em,
+);
+
+#skills {
+  text-align: map-get($skills, "text");
+}
+
+.diplomaImg {
+  height: map-get($skills, "awardHeight");
+  width: map-get($skills, "awardWidth");
 }

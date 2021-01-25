@@ -20,6 +20,15 @@ body {
   cursor: pointer;
 }
 
+.allHeadings {
+  font-weight: 900;
+  text-align: center;
+}
+
+.allHeadings label {
+  color: black;
+}
+
 /************************************************************************* name nav */
 .vivianNav {
   background-color: darkblue;
@@ -79,12 +88,6 @@ body {
 }
 
 /************************************************************************* projects */
-.allProjects label {
-  color: black;
-  font-weight: 900;
-}
-
-.allProjects,
 #projects {
   text-align: center;
 }
@@ -94,5 +97,15 @@ body {
   height: 5em;
   border: darkblue solid 0.2em;
   border-radius: 0.5em;
+}
+
+/************************************************************************* skills */
+#skills {
+  text-align: center;
+}
+
+.diplomaImg {
+  height: 15em;
+  width: 10em;
 }
 /*# sourceMappingURL=style.css.map */
