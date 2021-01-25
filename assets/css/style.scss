@@ -3,8 +3,9 @@ $mainFont: "Rubik", sans-serif;
 $universal: (
   "padding": 0em,
   "margin": 0em,
+  "mainCursor": default,
+  "activeAnchors": none,
 );
-$mainCursor: default;
 
 * {
   font-family: $mainFont;
@@ -13,8 +14,16 @@ $mainCursor: default;
 }
 
 body {
-  cursor: $mainCursor;
+  cursor: map-get($universal, "mainCursor");
 }
+
+// a,
+// a:hover,
+// a:active,
+// a:focus,
+// a:visited {
+//   text-decoration: map-get($universal, "activeAnchors");
+// }
 
 /************************************************************************* name nav */
 $vivianNav: (
@@ -48,6 +57,10 @@ $menuNav: (
   "barsIcon": darkblue,
   "barsBorder": darkblue solid 0.1em,
   "barsOutline": none,
+  "mobileLinks": 1.5em,
+  "mobileLinksText": darkblue,
+  "mobileLinksWeight": 900,
+  "mobileHoverLinks": darkblue,
 );
 
 .menuNav {
@@ -58,13 +71,26 @@ $menuNav: (
   color: map-get($menuNav, "barsIcon");
 }
 
-.navbar-toggler{
-    text-align: left;
+.navbar-toggler {
+  text-align: left;
 }
 
 .navbar-toggler:active,
 .navbar-toggler:focus,
 .navbar-toggler:hover {
-	border: map-get($menuNav, "barsBorder");
-	outline: map-get($menuNav, "barsOutline");
+  border: map-get($menuNav, "barsBorder");
+  outline: map-get($menuNav, "barsOutline");
+}
+
+.mobileLink {
+  font-size: map-get($menuNav, "mobileLinks");
+}
+
+.mobileLink a {
+  color: map-get($menuNav, "mobileLinksText");
+  font-weight: map-get($menuNav, "mobileLinksWeight");
+}
+
+.mobileLink:hover a {
+  color: map-get($menuNav, "mobileHoverLinks");
 }

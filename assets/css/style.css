@@ -46,4 +46,17 @@ body {
   border: darkblue solid 0.1em;
   outline: none;
 }
+
+.mobileLink {
+  font-size: 1.5em;
+}
+
+.mobileLink a {
+  color: darkblue;
+  font-weight: 900;
+}
+
+.mobileLink:hover a {
+  color: darkblue;
+}
 /*# sourceMappingURL=style.css.map */
