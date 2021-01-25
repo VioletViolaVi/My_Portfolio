@@ -20,6 +20,10 @@ body {
   cursor: pointer;
 }
 
+.title {
+  text-align: center;
+}
+
 .allHeadings {
   font-weight: 900;
   text-align: center;
@@ -88,10 +92,6 @@ body {
 }
 
 /************************************************************************* projects */
-#projects {
-  text-align: center;
-}
-
 .projectImg {
   width: 8em;
   height: 5em;
@@ -100,12 +100,10 @@ body {
 }
 
 /************************************************************************* skills */
-#skills {
-  text-align: center;
-}
-
 .diplomaImg {
   height: 15em;
   width: 10em;
 }
+
+/************************************************************************* about me */
 /*# sourceMappingURL=style.css.map */

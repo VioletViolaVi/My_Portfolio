@@ -37,6 +37,10 @@ body {
   cursor: map-get($universal, "arrowCursor");
 }
 
+.title{
+  text-align: map-get($universal, "headingCenter");
+}
+
 .allHeadings {
   font-weight: map-get($universal, "headingWeight");
   text-align: map-get($universal, "headingCenter");
@@ -126,16 +130,11 @@ $menuNav: (
 
 /************************************************************************* projects */
 $projects: (
-  "text": center,
   "widthImg": 8em,
   "heightImg": 5em,
   "imgBorder": darkblue solid 0.2em,
   "imgRadius": 0.5em,
 );
-
-#projects {
-  text-align: map-get($projects, "text");
-}
 
 .projectImg {
   width: map-get($projects, "widthImg");
@@ -146,22 +145,13 @@ $projects: (
 
 /************************************************************************* skills */
 $skills: (
-  "text": center,
   "awardHeight": 15em,
   "awardWidth": 10em,
 );
-
-#skills {
-  text-align: map-get($skills, "text");
-}
 
 .diplomaImg {
   height: map-get($skills, "awardHeight");
   width: map-get($skills, "awardWidth");
 }
 
-
-// table {
-//   table-layout: fixed;
-//   word-wrap: break-word;
-// }
+/************************************************************************* about me */
