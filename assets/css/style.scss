@@ -12,7 +12,7 @@ $universal: (
   "arrowZIndex": 1,
   "arrowCursor": pointer,
   "headingWeight": 900,
-  "headingCenter": center,
+  "mainAndSubheadingCenter": center,
   "headingColour": black,
 );
 
@@ -38,12 +38,12 @@ body {
 }
 
 .title{
-  text-align: map-get($universal, "headingCenter");
+  text-align: map-get($universal, "mainAndSubheadingCenter");
 }
 
 .allHeadings {
   font-weight: map-get($universal, "headingWeight");
-  text-align: map-get($universal, "headingCenter");
+  text-align: map-get($universal, "mainAndSubheadingCenter");
 }
 
 .allHeadings label {
@@ -155,3 +155,12 @@ $skills: (
 }
 
 /************************************************************************* about me */
+$about: (
+  "imgHeight": 13em,
+  "imgWidth": 13em,
+);
+
+.vivianImg{
+  height: map-get($about, "imgHeight");
+  width: map-get($about, "imgWidth");
+}
