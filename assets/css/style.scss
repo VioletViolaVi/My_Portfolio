@@ -6,8 +6,11 @@ $universal: (
   "mainCursor": default,
   "arrowColour": darkblue,
   "arrowSize": 2.5em,
-  "arrowPosition": absolute,
+  "arrowPosition": fixed,
   "arrowBottomRight": 0.5em,
+  "arrowDisplay": none,
+  "arrowZIndex": 1,
+  "arrowCursor": pointer,
 );
 
 * {
@@ -26,6 +29,9 @@ body {
   position: map-get($universal, "arrowPosition");
   right: map-get($universal, "arrowBottomRight");
   bottom: map-get($universal, "arrowBottomRight");
+  display: map-get($universal, "arrowDisplay");
+  z-index: map-get($universal, "arrowZIndex");
+  cursor: map-get($universal, "arrowCursor");
 }
 
 /************************************************************************* name nav */
