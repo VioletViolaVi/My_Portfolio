@@ -4,7 +4,6 @@ $universal: (
   "padding": 0em,
   "margin": 0em,
   "mainCursor": default,
-  "activeAnchors": none,
 );
 
 * {
@@ -17,14 +16,6 @@ body {
   cursor: map-get($universal, "mainCursor");
 }
 
-// a,
-// a:hover,
-// a:active,
-// a:focus,
-// a:visited {
-//   text-decoration: map-get($universal, "activeAnchors");
-// }
-
 /************************************************************************* name nav */
 $vivianNav: (
   "bgColour": darkblue,
@@ -32,6 +23,7 @@ $vivianNav: (
   "iconsColour": lightblue,
   "iconsSize": 1.5em,
   "vivianWeight": 900,
+  "iconsHover": blue,
 );
 
 .vivianNav {
@@ -51,6 +43,13 @@ $vivianNav: (
   font-size: map-get($vivianNav, "iconsSize");
 }
 
+.fab.fa-linkedin:hover,
+.fab.fa-github-square:hover,
+.fas.fa-envelope:hover,
+.fab.fa-twitter-square:hover {
+  color: map-get($vivianNav, "iconsHover");
+}
+
 /************************************************************************* menu nav */
 $menuNav: (
   "bgColour": lightblue,
@@ -60,7 +59,7 @@ $menuNav: (
   "mobileLinks": 1.5em,
   "mobileLinksText": darkblue,
   "mobileLinksWeight": 900,
-  "mobileHoverLinks": darkblue,
+  "mobileHoverLinks": blue,
 );
 
 .menuNav {
@@ -93,4 +92,20 @@ $menuNav: (
 
 .mobileLink:hover a {
   color: map-get($menuNav, "mobileHoverLinks");
+}
+
+/************************************************************************* projects */
+$projects: (
+  "title": center,
+  "widthImg": 10em,
+  "heightImg": 5em,
+);
+
+#projects {
+  text-align: map-get($projects, "title");
+}
+
+.projectImg {
+  width: map-get($projects, "widthImg");
+  height: map-get($projects, "heightImg");
 }

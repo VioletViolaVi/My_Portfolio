@@ -27,6 +27,13 @@ body {
   font-size: 1.5em;
 }
 
+.fab.fa-linkedin:hover,
+.fab.fa-github-square:hover,
+.fas.fa-envelope:hover,
+.fab.fa-twitter-square:hover {
+  color: blue;
+}
+
 /************************************************************************* menu nav */
 .menuNav {
   background-color: lightblue;
@@ -57,6 +64,16 @@ body {
 }
 
 .mobileLink:hover a {
-  color: darkblue;
+  color: blue;
+}
+
+/************************************************************************* projects */
+#projects {
+  text-align: center;
+}
+
+.projectImg {
+  width: 10em;
+  height: 5em;
 }
 /*# sourceMappingURL=style.css.map */
