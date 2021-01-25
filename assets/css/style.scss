@@ -188,6 +188,7 @@ $about: (
 $breakpoints: (
   "576px": 576px,
   "768px": 768px,
+  "992px": 992px,
 );
 
 @media (min-width: map-get($breakpoints, "576px")) {
@@ -247,6 +248,30 @@ $breakpoints: (
   @mixin projectImg {
     width: 13.5em;
     height: 7em;
+  }
+
+  .projectImg {
+    @include projectImg;
+  }
+}
+
+@media (min-width: map-get($breakpoints, "992px")) {
+  /************************************************************************* name nav */
+  @mixin socialIcons {
+    margin: 0em 0.3em;
+  }
+
+  .fab.fa-linkedin,
+  .fab.fa-github-square,
+  .fas.fa-envelope,
+  .fab.fa-twitter-square {
+    @include socialIcons;
+  }
+
+  /************************************************************************* projects */
+  @mixin projectImg {
+    width: 18em;
+    height: 9em;
   }
 
   .projectImg {
