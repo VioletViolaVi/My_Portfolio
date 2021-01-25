@@ -68,12 +68,18 @@ body {
 }
 
 /************************************************************************* projects */
+.allProjects label {
+  color: black;
+  font-weight: black;
+}
+
+.allProjects,
 #projects {
   text-align: center;
 }
 
 .projectImg {
-  width: 10em;
+  width: 8em;
   height: 5em;
 }
 /*# sourceMappingURL=style.css.map */

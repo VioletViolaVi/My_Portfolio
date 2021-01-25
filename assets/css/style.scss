@@ -96,13 +96,21 @@ $menuNav: (
 
 /************************************************************************* projects */
 $projects: (
-  "title": center,
-  "widthImg": 10em,
+  "text": center,
+  "widthImg": 8em,
   "heightImg": 5em,
+  "labelColour": black,
+  "labelWeight": 900,
 );
 
+.allProjects label {
+  color: map-get($projects, "labelColour");
+  font-weight: map-get($projects, "labelColour");
+}
+
+.allProjects,
 #projects {
-  text-align: map-get($projects, "title");
+  text-align: map-get($projects, "text");
 }
 
 .projectImg {
