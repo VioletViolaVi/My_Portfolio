@@ -1,8 +1,8 @@
 # My Portfolio
 
-This is my personal portfolio aimed at showcasing my coding skills. I’m currently studying with Code Institute on a Full Stack Web Development course. I have completed four separate projects using a variety of frontend and backend coding languages, frameworks and libraries. Such include but are not limited to: HTML5, CSS3, JavaScript, jQuery, Python, Django, Flask, MongoDB, MySQL, Bootstrap, Materialize, etc.
+This is my personal portfolio aimed at showcasing my coding skills. I graduated from Code Institute on a Full Stack Web Development course and achieved a Diploma in Software Development. I completed four separate projects, with Code Institute, using a variety of frontend and backend coding languages, frameworks and libraries. Such include but are not limited to: HTML5, CSS3, JavaScript, jQuery, Python, Django, Flask, MongoDB, MySQL, Bootstrap, Materialize, etc.
 
-## Brief overview of projects:
+## Brief overview of Code Institute's projects:
 
 ### BusyBakes: Project 1
 
