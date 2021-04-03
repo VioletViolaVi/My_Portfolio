@@ -153,6 +153,7 @@ html {
 #skills li {
     display: inline;
     font-size: 1.5rem;
+    list-style-type: none;
 }
 
 /**************************************************************************** footer */
