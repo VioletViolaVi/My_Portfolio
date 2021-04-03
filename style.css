@@ -17,10 +17,39 @@ body {
 
 #header {
     background-color: rgb(245, 180, 245);
+    padding: 0.5rem 0rem;
 }
 
 #header li {
     display: inline;
+    font-size: 1.5rem;
+}
+
+#header ul {
+    text-align: right;
+}
+
+#header li {
+    font-weight: 900;
+    padding-right: 1.5rem;
+    list-style-type: none;
+}
+
+#header .fas.fa-bars {
+    cursor: pointer;
+    position: fixed;
+    left: 0.5rem;
+    top: 0.5rem;
+}
+
+#header a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+#header a:hover {
+    border-bottom: purple solid 0.1rem;
 }
 
 /**************************************************************************** big nav */

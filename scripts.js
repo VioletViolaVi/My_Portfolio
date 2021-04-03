@@ -1,3 +1,5 @@
 $("document").ready(function () {
-    console.log("hello");
+    $("#header .fas.fa-bars").on("click", () => {
+        $(".nav-links").fadeToggle();
+    });
 });
