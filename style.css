@@ -159,6 +159,20 @@ html {
     list-style-type: none;
 }
 
+#skills figure {
+    margin-bottom: 2rem;
+}
+
+#skills img {
+    width: 18rem;
+    height: 26rem;
+    border: solid 0.2rem rgb(94, 11, 94);
+}
+
+#skills figcaption {
+    font-size: 1.5rem;
+}
+
 /**************************************************************************** footer */
 
 #footer {
