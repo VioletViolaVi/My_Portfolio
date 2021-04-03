@@ -12,6 +12,10 @@ body {
     font-family: 'Kulim Park', sans-serif;
 }
 
+html {
+    scroll-padding: 3rem;
+}
+
 /**************************************************************************** small nav */
 
 #header {
@@ -87,18 +91,18 @@ body {
 /**************************************************************************** home */
 
 #home {
-    padding-top: 9rem;
+    padding-top: 11rem;
 }
 
 #home h1 {
-    font-size: 2rem;
+    font-size: 1.9rem;
     color: rgb(94, 11, 94);
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 #home p {
     font-size: 1.5rem;
-    margin-bottom: 1.1rem;
+    margin-bottom: 1.5rem;
 }
 
 #home .fas.fa-hand-sparkles {
@@ -118,11 +122,18 @@ body {
     margin-top: 2rem;
 }
 
+#projects h2 {
+    margin-bottom: 1.5rem;
+}
+
+#projects figure {
+    margin-bottom: 2rem;
+}
+
 #projects img {
     width: 18rem;
-    height: 20rem;
+    height: 26rem;
     border: solid 0.2rem rgb(94, 11, 94);
-    border-radius: 1rem;
 }
 
 #projects figcaption {
