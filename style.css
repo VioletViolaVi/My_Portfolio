@@ -158,4 +158,23 @@ html {
 
 /**************************************************************************** footer */
 
+#footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(245, 212, 245);
+}
+
+#footer p {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+#footer a {
+    color: black;
+}
+
+#footer a:hover {
+    color: rgb(94, 11, 94)
+}
+
 /**************************************************************************** media queries */
