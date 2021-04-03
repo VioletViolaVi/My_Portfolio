@@ -97,6 +97,10 @@ body {
 
 /**************************************************************************** big nav */
 
+.big-nav {
+    display: none;
+}
+
 /**************************************************************************** back to top btn */
 
 #backToTopAside {
@@ -155,7 +159,7 @@ body {
 #projects {
     margin-bottom: 6rem;
     padding: 3.1rem 0rem;
-    background-color: rgb(245, 212, 245)
+    background-color: rgb(245, 212, 245);
 }
 
 #projects h2 {
@@ -171,6 +175,8 @@ body {
     height: 26rem;
     border: solid 0.2rem rgb(94, 11, 94);
 }
+
+#projects img {}
 
 #projects figcaption {
     font-size: 1.5rem;
@@ -233,3 +239,129 @@ body {
 }
 
 /**************************************************************************** media queries */
+
+@media only screen and (min-width: 666px) {
+    /**************************************************************************** universal */
+    html {
+        scroll-padding: 4.4rem;
+    }
+    /**************************************************************************** small nav */
+    #header {
+        height: 4.5rem;
+    }
+    #header li {
+        font-size: 3rem;
+    }
+    /**************************************************************************** home */
+    #home {
+        padding-top: 7.3rem;
+    }
+    #home h1 {
+        font-size: 3.5rem;
+    }
+    #home p {
+        font-size: 2.4rem;
+    }
+    #home figcaption {
+        font-size: 1.9rem;
+    }
+    /**************************************************************************** projects */
+    #projects h2 {
+        font-size: 2.5rem;
+    }
+    #projects img {
+        width: 30rem;
+        height: 32rem;
+    }
+    #projects figcaption {
+        font-size: 1.9rem;
+    }
+    /**************************************************************************** skills */
+    #skills h2 {
+        font-size: 2.5rem;
+    }
+    #skills li {
+        font-size: 2.4rem;
+    }
+    #skills img {
+        width: 24rem;
+        height: 33rem;
+    }
+    #skills figcaption {
+        font-size: 1.9rem;
+    }
+    /**************************************************************************** footer */
+    #footer a {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width: 1125px) {
+    /**************************************************************************** universal */
+    html {
+        scroll-padding: 0rem;
+    }
+    /**************************************************************************** small nav */
+    .small-nav {
+        display: none;
+    }
+    /**************************************************************************** big nav */
+    .big-nav {
+        display: block;
+        position: fixed;
+        right: 0rem;
+        background-color: white;
+        width: 100%;
+        height: 5rem;
+    }
+    .big-nav ul {
+        text-align: right;
+        margin-top: 0.5rem;
+    }
+    .big-nav li {
+        display: inline;
+        font-size: 3.5rem;
+        margin-right: 3.5rem;
+    }
+    .big-nav li:last-child {
+        margin-right: 0.5rem;
+    }
+    .big-nav a {
+        text-decoration: none;
+        color: rgb(245, 212, 245);
+        background-color: rgb(94, 11, 94);
+        border: solid 0.2rem rgb(245, 212, 245);
+        padding: 0rem 1rem;
+    }
+    .big-nav a:hover {
+        background-color: rgb(245, 212, 245);
+        border: solid 0.2rem rgb(94, 11, 94);
+        color: rgb(94, 11, 94);
+        font-weight: 900;
+    }
+    /**************************************************************************** home */
+    #home {
+        padding-top: 6rem;
+    }
+    #home h1 {
+        font-size: 4rem;
+    }
+    /**************************************************************************** projects */
+    #projects {
+        padding-top: 5.1rem;
+    }
+    #projects h2 {
+        font-size: 3.5rem;
+    }
+    #projects section {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    #projects img {
+        width: 28rem;
+        height: 28rem;
+    }
+    #projects figcaption {
+        font-size: 2.5rem;
+    }
+}
