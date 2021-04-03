@@ -6,14 +6,40 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-padding: 2rem;
+}
+
 body {
     cursor: default;
     text-align: center;
     font-family: 'Kulim Park', sans-serif;
 }
 
-html {
-    scroll-padding: 2rem;
+/* scrollbar width */
+
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+/* scrollbar outline */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0rem 0rem 0.6rem rgb(94, 11, 94);
+    border-radius: 1rem;
+}
+
+/* scrollbar content */
+
+::-webkit-scrollbar-thumb {
+    background: rgb(94, 11, 94);
+    border-radius: 1rem;
+}
+
+/* scrollbar content:hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(245, 212, 245);
 }
 
 /**************************************************************************** small nav */
@@ -84,11 +110,11 @@ html {
 #backToTopAside .fas.fa-angle-double-up {
     cursor: pointer;
     font-size: 1.8rem;
-    color: rgb(245, 212, 245);
+    color: rgb(94, 11, 94);
 }
 
 #backToTopAside .fas.fa-angle-double-up:hover {
-    color: rgb(94, 11, 94);
+    font-size: 2rem;
 }
 
 /**************************************************************************** home */
