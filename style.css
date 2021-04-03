@@ -19,6 +19,7 @@ body {
     padding: 0.5rem 0rem;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 #header li {
@@ -76,10 +77,11 @@ body {
 #backToTopAside .fas.fa-angle-double-up {
     cursor: pointer;
     font-size: 1.8rem;
+    color: rgb(245, 212, 245);
 }
 
 #backToTopAside .fas.fa-angle-double-up:hover {
-    color: rgb(245, 212, 245);
+    color: rgb(94, 11, 94);
 }
 
 /**************************************************************************** home */
@@ -112,9 +114,15 @@ body {
 
 /**************************************************************************** projects */
 
+#projects {
+    margin-top: 2rem;
+}
+
 #projects img {
-    width: 16rem;
-    height: 16rem;
+    width: 18rem;
+    height: 20rem;
+    border: solid 0.2rem rgb(94, 11, 94);
+    border-radius: 1rem;
 }
 
 /**************************************************************************** skills */
