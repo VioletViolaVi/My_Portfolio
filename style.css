@@ -124,7 +124,8 @@ html {
 
 #projects {
     margin-bottom: 6rem;
-    padding-top: 3.1rem;
+    padding: 3.1rem 0rem;
+    background-color: rgb(245, 212, 245)
 }
 
 #projects h2 {
