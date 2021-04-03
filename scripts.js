@@ -1,7 +1,7 @@
 $("document").ready(function () {
     // toggles nav links
     $("#header .fas.fa-bars").on("click", () => {
-        $(".nav-links").fadeToggle();
+        $("#header .nav-links a").fadeToggle();
     });
 
     // goes back to top
