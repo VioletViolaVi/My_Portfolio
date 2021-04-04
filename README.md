@@ -36,27 +36,27 @@ This website is for anyone who is interested in working with me and learning mor
 
 # Activity Diagram
 
-![An activity diagram displaying how to navigate through my portfolio.](/media/activityDiagram/activityDiagram.PNG)
+![An activity diagram displaying how to navigate through my portfolio.](/imgs/activityDiagram/activityDiagram.PNG)
 
 ## Small Screens
 
-![A wireframe image of the navigation bar for my portfolio on small screens.](/media/wireframes/1.navbar-mobile.PNG)
-![A wireframe image of the home page for my portfolio on small screens.](/media/wireframes/2.home-mobile.PNG)
-![A wireframe image of the skills page for my portfolio on small screens.](/media/wireframes/3.skills-mobile.PNG)
-![A wireframe image of the about me page for my portfolio on small screens.](/media/wireframes/4.aboutMe-mobile.PNG)
+![A wireframe image of the navigation bar for my portfolio on small screens.](/imgs/wireframes/1.navbar-mobile.PNG)
+![A wireframe image of the home page for my portfolio on small screens.](/imgs/wireframes/2.home-mobile.PNG)
+![A wireframe image of the skills page for my portfolio on small screens.](/imgs/wireframes/3.skills-mobile.PNG)
+![A wireframe image of the about me page for my portfolio on small screens.](/imgs/wireframes/4.aboutMe-mobile.PNG)
 
 ## Medium Screens
 
-![A wireframe image of the navigation bar for my portfolio on medium screens.](/media/wireframes/5.navbar-tablet.PNG)
-![A wireframe image of the home page for my portfolio on medium screens.](/media/wireframes/6.home-tablet.PNG)
-![A wireframe image of the skills page for my portfolio on medium screens.](/media/wireframes/7.skills-tablet.PNG)
-![A wireframe image of the about me page for my portfolio on medium screens.](/media/wireframes/8.aboutMe-tablet.PNG)
+![A wireframe image of the navigation bar for my portfolio on medium screens.](/imgs/wireframes/5.navbar-tablet.PNG)
+![A wireframe image of the home page for my portfolio on medium screens.](/imgs/wireframes/6.home-tablet.PNG)
+![A wireframe image of the skills page for my portfolio on medium screens.](/imgs/wireframes/7.skills-tablet.PNG)
+![A wireframe image of the about me page for my portfolio on medium screens.](/imgs/wireframes/8.aboutMe-tablet.PNG)
 
 ## Large Screens
 
-![A wireframe image of the home page for my portfolio on large screens.](/media/wireframes/9.home-desktop.PNG)
-![A wireframe image of the skills page for my portfolio on large screens.](/media/wireframes/10.skills-desktop.PNG)
-![A wireframe image of the about me page for my portfolio on large screens.](/media/wireframes/11.aboutMe-desktop.PNG)
+![A wireframe image of the home page for my portfolio on large screens.](/imgs/wireframes/9.home-desktop.PNG)
+![A wireframe image of the skills page for my portfolio on large screens.](/imgs/wireframes/10.skills-desktop.PNG)
+![A wireframe image of the about me page for my portfolio on large screens.](/imgs/wireframes/11.aboutMe-desktop.PNG)
 
 # Features
 
@@ -270,3 +270,4 @@ I received inspiration for this portfolio from:
 
 - https://www.sliderrevolution.com/design/web-developer-portfolio-examples/
 - https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/
+- https://mattfarley.ca/
