@@ -393,7 +393,6 @@ body {
     }
     #skills section {
         grid-row: 2;
-        margin-top: 2.5rem;
     }
     #skills figure {
         grid-row: 2;
