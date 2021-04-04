@@ -176,7 +176,9 @@ body {
     border: solid 0.2rem rgb(94, 11, 94);
 }
 
-#projects img {}
+#projects img:hover {
+    border-width: 0.4rem;
+}
 
 #projects figcaption {
     font-size: 1.5rem;
@@ -211,6 +213,10 @@ body {
     width: 18rem;
     height: 26rem;
     border: solid 0.2rem rgb(94, 11, 94);
+}
+
+#skills img:hover {
+    border-width: 0.4rem;
 }
 
 #skills figcaption {
@@ -301,6 +307,13 @@ body {
     html {
         scroll-padding: 0rem;
     }
+    /**************************************************************************** back to top btn */
+    #backToTopAside .fas.fa-angle-double-up {
+        font-size: 3rem;
+    }
+    #backToTopAside .fas.fa-angle-double-up:hover {
+        font-size: 3.5rem;
+    }
     /**************************************************************************** small nav */
     .small-nav {
         display: none;
@@ -363,5 +376,39 @@ body {
     }
     #projects figcaption {
         font-size: 2.5rem;
+    }
+    #projects section figure:last-child {
+        grid-column: 1 / 3;
+    }
+    /**************************************************************************** skills */
+    #skills {
+        padding: 5.1rem 1rem 0rem;
+        display: grid;
+    }
+    #skills h2 {
+        font-size: 3.5rem;
+        grid-column: 1 / span 3;
+        grid-row: 1;
+    }
+    #skills section {
+        grid-row: 2;
+        margin-top: 2.5rem;
+    }
+    #skills figure {
+        grid-row: 2;
+    }
+    #skills li {
+        font-size: 2.5rem;
+    }
+    #skills img {
+        width: 26rem;
+        height: 33rem;
+    }
+    #skills figcaption {
+        font-size: 2.2rem;
+    }
+    /**************************************************************************** footer */
+    #footer a {
+        font-size: 3.5rem;
     }
 }
