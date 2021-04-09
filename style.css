@@ -369,13 +369,24 @@ body {
     }
     #projects #smallScreens {
         display: none;
-        /* display: grid; */
-        /* grid-template-columns: auto auto; */
     }
-    #projects #smallScreens {}
+    #projects #bigScreens {
+        grid-template-columns: auto auto;
+        display: grid;
+    }
+
+
+
+
+
+
+
+
+
+
     #projects img {
-        width: 28rem;
-        height: 28rem;
+        width: 10rem;
+        height: 10rem;
     }
     #projects figcaption {
         font-size: 2.5rem;
