@@ -156,6 +156,10 @@ body {
 
 /**************************************************************************** projects */
 
+#projects #bigScreens {
+    display: none;
+}
+
 #projects {
     margin-bottom: 6rem;
     padding: 3.1rem 0rem;
@@ -164,6 +168,11 @@ body {
 
 #projects h2 {
     margin-bottom: 1.5rem;
+}
+
+#projects #smallScreens p {
+    font-size: 1.2rem;
+    margin: 0rem auto 2rem;
 }
 
 #projects figure {
@@ -275,6 +284,10 @@ body {
     #projects h2 {
         font-size: 2.5rem;
     }
+    #projects #smallScreens p {
+        font-size: 1.5rem;
+        margin: 0rem auto 4rem;
+    }
     #projects img {
         width: 30rem;
         height: 32rem;
@@ -361,14 +374,15 @@ body {
         font-size: 4rem;
     }
     /**************************************************************************** projects */
+    #projects #smallScreens {
+        display: none;
+    }
     #projects {
         padding-top: 5.1rem;
     }
     #projects h2 {
         font-size: 3.5rem;
-    }
-    #projects #smallScreens {
-        display: none;
+        margin-bottom: 4rem;
     }
     #projects #bigScreens {
         grid-template-columns: auto auto;
@@ -397,6 +411,7 @@ body {
         font-size: 3.5rem;
         grid-column: 1 / span 3;
         grid-row: 1;
+        margin-bottom: 4rem;
     }
     #skills section {
         grid-row: 2;
