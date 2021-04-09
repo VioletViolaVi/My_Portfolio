@@ -374,19 +374,16 @@ body {
         grid-template-columns: auto auto;
         display: grid;
     }
-
-
-
-
-
-
-
-
-
-
+    #projects #bigScreens p {
+        font-size: 1.5rem;
+        margin: auto 1rem;
+    }
+    #projects figure {
+        margin-bottom: 0rem;
+    }
     #projects img {
-        width: 10rem;
-        height: 10rem;
+        width: 32rem;
+        height: 17rem;
     }
     #projects figcaption {
         font-size: 2.5rem;
