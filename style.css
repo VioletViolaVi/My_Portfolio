@@ -388,9 +388,14 @@ body {
         grid-template-columns: auto auto;
         display: grid;
     }
-    #projects #bigScreens p {
+    #projects #bigScreens ul{
+        margin-top: 3rem;
+    }
+    #projects #bigScreens li {
         font-size: 1.5rem;
-        margin: auto 1rem;
+        margin: 1rem 1rem;
+        padding: 2rem 0rem 0rem;
+        list-style-type: none;
     }
     #projects figure {
         margin-bottom: 0rem;
@@ -401,6 +406,7 @@ body {
     }
     #projects figcaption {
         font-size: 2.5rem;
+        margin-bottom: 1rem;
     }
     /**************************************************************************** skills */
     #skills {
