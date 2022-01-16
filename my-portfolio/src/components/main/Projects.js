@@ -6,7 +6,7 @@ const Projects = (props) => {
       <figure>
         <figcaption>{props.title}</figcaption>
         <a href={props.link} target="_blank" rel="noreferrer">
-          <img src={props.image} alt={props.alt} />
+          <img src={"../images/" + props.image} alt={props.alt} />
         </a>
       </figure>
       <p>{props.description}</p>
