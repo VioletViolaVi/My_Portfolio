@@ -14,11 +14,39 @@ ul {
 }
 
 /*********************************************************** navbar */
+.nav-container {
+  background-color: #f5fffa;
+  font-size: 2rem;
+}
+
+/******************* bar icon */
+.fas.fa-bars {
+  color: #000000;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.fas.fa-bars:hover {
+  color: #98fb98;
+}
+
+/******************* links */
 .all-nav-items {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
 }
 
 .nav-items {
   display: inline;
+}
+
+.nav-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #98fb98;
+  font-weight: bold;
 }

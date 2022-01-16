@@ -1,18 +1,22 @@
 const Header = () => {
   return (
-    <nav>
+    <nav className="nav-container">
+      <i class="fas fa-bars"></i>
       <ul className="all-nav-items">
-        <li>
-          <i class="fas fa-bars"></i>
+        <li className="nav-items">
+          <a href="#home" className="nav-link">
+            Home
+          </a>
         </li>
         <li className="nav-items">
-          <a href="#home">Home</a>
+          <a href="#projects" className="nav-link">
+            Projects
+          </a>
         </li>
         <li className="nav-items">
-          <a href="#projects">Projects</a>
-        </li>
-        <li className="nav-items">
-          <a href="#skills">Skills</a>
+          <a href="#skills" className="nav-link">
+            Skills
+          </a>
         </li>
       </ul>
     </nav>
