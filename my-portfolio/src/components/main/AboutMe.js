@@ -18,7 +18,7 @@ const AboutMe = () => {
         interfaces.
       </p>
       <figure>
-        <img src={portrait} alt="Cartoon version" />
+        <img src={portrait} alt="Cartoon version of me." />
         <figcaption>
           Hello Again!{" "}
           <span>
