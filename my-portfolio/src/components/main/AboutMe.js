@@ -30,10 +30,6 @@ const AboutMe = () => {
           </span>
         </figcaption>
       </figure>
-
-      <header>
-        <h2>Projects</h2>
-      </header>
     </section>
   );
 };

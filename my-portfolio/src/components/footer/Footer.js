@@ -1,5 +1,3 @@
-// import portrait from "../images/Avatar.png";
-
 const Footer = () => {
   return (
     <>
