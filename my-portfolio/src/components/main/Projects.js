@@ -1,19 +1,17 @@
-import busyBakes from "../images/BusyBakesPic.PNG";
+// import busyBakes from "../images/BusyBakesPic.PNG";
 
-const Projects = () => {
+const Projects = (props) => {
   return (
     <section>
       <figure>
-        <figcaption>BusyBakes</figcaption>
-        <img src={busyBakes} alt="BusyBakes screenshot." />
+        <figcaption>{props.title}</figcaption>
+        <a href={props.link} target="_blank" rel="noreferrer">
+          <img src={props.image} alt={props.alt} />
+        </a>
       </figure>
+      <p>{props.description}</p>
       <p>
-        A baking club website for users to browse and select baking lessons they
-        wish to take.
-      </p>
-      <p>
-        <b>Technologies:</b> HTML5, CSS3, SASS, jQuery, JavaScript, Bootstrap,
-        Git, Gitpod, Github, Balsamiq Wireframes
+        <b>Technologies:</b> {props.technologies}
       </p>
     </section>
   );

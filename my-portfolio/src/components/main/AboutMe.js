@@ -10,7 +10,7 @@ const AboutMe = () => {
       <p>
         Hello!{" "}
         <span>
-          <i class="fas fa-hand-sparkles"></i>
+          <i className="fas fa-hand-sparkles"></i>
         </span>
       </p>
 
@@ -26,7 +26,7 @@ const AboutMe = () => {
         <figcaption>
           Hello Again!{" "}
           <span>
-            <i class="fas fa-hand-sparkles"></i>
+            <i className="fas fa-hand-sparkles"></i>
           </span>
         </figcaption>
       </figure>

@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
     <>
-      <i class="fas fa-envelope"></i>
-      <i class="fab fa-github"></i>
+      <i className="fas fa-envelope"></i>
+      <i className="fab fa-github"></i>
     </>
   );
 };
