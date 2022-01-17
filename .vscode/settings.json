@@ -4,5 +4,6 @@
         "Cinemagic",
         "Gitpod",
         "Wireframes"
-    ]
+    ],
+    "git.ignoreLimitWarning": true
 }
