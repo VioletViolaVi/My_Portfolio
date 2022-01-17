@@ -1,3 +1,5 @@
+Updated React version of my website can be found here: https://github.com/VioletViolaVi/My_Website
+
 # My Portfolio
 
 This is my personal portfolio aimed at showcasing my coding skills. I graduated from Code Institute on a Full Stack Web Development course and achieved a Diploma in Software Development. I completed four separate projects, with Code Institute, using a variety of frontend and backend coding languages, frameworks and libraries. Such include but are not limited to: HTML5, CSS3, JavaScript, jQuery, Python, Django, Flask, MongoDB, MySQL, Bootstrap, Materialize, etc.
